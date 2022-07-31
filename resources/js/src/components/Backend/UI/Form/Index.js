@@ -9,11 +9,11 @@ export default ({ onSubmit, title, subtitle, className = '', children, style, id
         <div>
             <div className='title'>{title}</div>
             <div className='subtitle'>{subtitle}</div>
-            <div className='blue-line' />
+            <div className='green-line' />
         </div>
 
         {list && <Link to={link} className="link">
-            <button className='btn btn-blue'>
+            <button className='btn btn-green'>
                 <span>{list}</span><i className='fas fa-tasks' />
             </button>
         </Link>}

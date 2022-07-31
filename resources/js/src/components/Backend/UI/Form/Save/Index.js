@@ -13,7 +13,7 @@ class Save extends Component {
         return <div className="Save col-12">
             <button className="btn btn-green">{save}<i className="fas fa-save" /></button>
 
-            {!edit && <button onClick={saveAddHandler} className="btn btn-blue add">{save_add}<i className="fas fa-save" /></button>}
+            {!edit && <button onClick={saveAddHandler} className="btn btn-orange add">{save_add}<i className="fas fa-save" /></button>}
         </div>;
     }
 }

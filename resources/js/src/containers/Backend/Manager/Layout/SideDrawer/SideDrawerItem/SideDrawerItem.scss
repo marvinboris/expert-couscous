@@ -16,7 +16,7 @@
             transition: all 0.25s;
 
             i {
-                color: var(--blue);
+                color: var(--green);
                 transition: all 0.25s;
             }
 
@@ -38,7 +38,7 @@
 
             .angle-down {
                 transition: all .25s;
-                color: var(--blue);
+                color: var(--green);
                 margin-right: 16px;
                 transform: rotate(0deg);
 
@@ -68,7 +68,7 @@
             left: 0;
 
             .text {
-                color: var(--blue) !important;
+                color: var(--green) !important;
                 font-weight: 700;
                 font-size: 500;
             }

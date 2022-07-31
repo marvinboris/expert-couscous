@@ -167,7 +167,7 @@ class List extends Component {
             </div>
 
             <UncontrolledDropdown className="export">
-                <DropdownToggle color="blue" caret>
+                <DropdownToggle color="green" caret>
                     <i className='fas fa-file-export' />{'Export'}
                 </DropdownToggle>
 
@@ -184,7 +184,7 @@ class List extends Component {
             </div>
 
             {add && <Link to={link} className="link">
-                <button className='btn btn-blue'>
+                <button className='btn btn-green'>
                     <span>{add}</span><i className='fas fa-plus' />
                 </button>
             </Link>}
@@ -203,14 +203,14 @@ class List extends Component {
                     <div>
                         <div className='title'>{title}</div>
                         <div className='subtitle'>{subtitle}</div>
-                        <div className='blue-line' />
+                        <div className='green-line' />
                     </div>
 
                     {optionsContent}
                 </div>
 
                 <div className="body">
-                    <div className="table-responsive scrollbar-blue">
+                    <div className="table-responsive scrollbar-green">
                         <Table dark={dark} bordered={bordered} hover borderless={borderless}>
                             <thead><tr>{titles}</tr></thead>
                             <tbody>{!loading && content}</tbody>
