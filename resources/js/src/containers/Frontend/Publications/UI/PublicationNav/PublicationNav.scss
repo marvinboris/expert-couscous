@@ -1,0 +1,50 @@
+.Frontend .Publications .PublicationNav {
+    .search {
+        margin-bottom: 3rem;
+    }
+
+    .recent-posts {
+        &>.title {
+            margin-bottom: 1.5rem;
+            padding-bottom: .5rem;
+            font-size: var(--subtitle-font-size-sm);
+
+            &::after {
+                content: "";
+                display: block;
+                width: 2.5rem;
+                border-top: 2px solid var(--orange);
+            }
+        }
+
+        .Publication {
+            display: flex;
+            align-items: center;
+
+            .photo {
+                padding-right: .5rem;
+
+                div {
+                    width: 100px;
+                }
+            }
+
+            .text {
+                .date {
+                    margin-bottom: .5rem;
+                    text-transform: uppercase;
+                }
+
+                .title {
+                    color: var(--dark);
+                }
+            }
+
+            &:not(:last-of-type) {
+                margin-bottom: .75rem;
+                padding-bottom: .75rem;
+                border-bottom: .5px solid var(--border);
+            }
+        }
+    }
+}

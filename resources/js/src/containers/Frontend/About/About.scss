@@ -1,0 +1,89 @@
+.Frontend .About {
+    section {
+        background-color: var(--white);
+
+        &.about {
+            img {
+                margin-bottom: 20px;
+            }
+
+            p {
+                ul {
+                    margin: 0;
+                    text-align: left;
+                }
+            }
+        }
+
+        &.team {
+            background-repeat: repeat;
+            background-position: center;
+            background-color: var(--soft);
+            background-image: url('/images/cta_bg.png');
+        }
+
+        &.services {
+            background-color: var(--green);
+
+            .SectionTitle {
+
+                .super,
+                .title .top {
+                    color: var(--white);
+                }
+            }
+
+            .ServiceBlock .info {
+
+                .title,
+                .body {
+                    color: var(--white);
+                }
+            }
+        }
+
+        &.contact {
+            p {
+                text-align: center;
+            }
+
+            .ServiceBlock {
+                .icon {
+                    padding: 0;
+                }
+
+                .info {
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: flex-start;
+
+                    .text {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+
+                        .title,
+                        .body {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.newsletter {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .Frontend .About {
+        section {
+            &.about {
+                img {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

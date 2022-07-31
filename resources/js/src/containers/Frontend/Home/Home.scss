@@ -1,0 +1,535 @@
+.Frontend .Home {
+    .banner {
+        z-index: 0;
+        max-height: 800px;
+        position: relative;
+        height: calc(100vh - var(--toolbar-bottom-height-sm));
+
+        .banner__container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            background-color: var(--white-70);
+
+            .banner__text {
+                height: 100%;
+                display: flex;
+                position: relative;
+                flex-direction: column;
+
+                .row {
+                    flex-grow: 1;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .left,
+                    .right {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .content {
+                            display: flex;
+                            max-width: 100%;
+                            flex-direction: column;
+                            width: 100% !important;
+                            justify-content: center;
+                            border-radius: var(--border-radius);
+
+                            .title {
+                                width: 100%;
+                                display: block;
+                                font-size: var(--banner-font-size-sm);
+
+                                .top {
+                                    color: var(--green);
+                                }
+
+                                .bottom {
+                                    color: var(--orange);
+                                }
+                            }
+
+                            .description {
+                                width: 100%;
+                                display: block;
+                                font-size: 18px;
+                                margin-top: 23.4px;
+                                margin-bottom: 50px;
+                            }
+
+                            a {
+                                font-size: 14px;
+                                margin-bottom: 3.5px;
+                                padding: 15.75px 26.25px;
+
+                                &.about {
+                                    margin-right: 7px;
+                                }
+
+                                i {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .right .content {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        background-color: var(--white);
+
+        &>.container {
+            img {
+                border-radius: var(--border-radius);
+            }
+
+            .owl-dots {
+                .owl-dot {
+                    margin: 4px;
+
+                    span {
+                        background-color: var(--white-50);
+                    }
+
+                    &.active span {
+                        width: 22px;
+                        height: 22px;
+                        background-color: var(--green);
+                        border: 4px solid var(--white);
+                    }
+                }
+            }
+
+            .view-all {
+                text-align: center;
+            }
+        }
+
+        &.services,
+        &.newsletter,
+        &.team {
+            background-color: var(--green-10);
+        }
+
+        &.blocks {
+            z-index: 2;
+
+            .container {
+                top: -32px;
+                padding-top: 0;
+                padding-bottom: 0;
+                position: relative;
+
+                .BlocksBlock {
+                    margin-bottom: 1rem;
+
+                    .bg-img {
+                        padding: 61.25px 28px 28px 28px;
+
+                        .super {
+                            font-size: 15px;
+                            margin-bottom: 9px;
+                        }
+
+                        .title {
+                            color: var(--green);
+                            margin-bottom: 19.5px;
+                            font-size: var(--block-font-size);
+                        }
+
+                        .description {
+                            height: auto;
+                            font-size: 15px;
+                            margin-bottom: 14px;
+                            line-height: 22.5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.services {
+            background-repeat: repeat;
+            background-position: center;
+            background-image: url('/images/bg.png');
+        }
+
+        &.about {
+            img {
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+
+            .mission-title {
+                font-weight: 800;
+            }
+
+            .actions {
+
+                a,
+                button {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        &.newsletter {
+            background-size: cover;
+            background-position: center;
+            background-image: url('/images/cta_bg.png');
+
+            p {
+                text-align: center;
+            }
+
+            form {
+                padding: 40px;
+                color: var(--white);
+                justify-content: center;
+                background-color: var(--green);
+                border-radius: var(--border-radius);
+
+                .submit {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+            }
+        }
+
+        &.testimonies {
+            background-size: cover;
+            background-position: center;
+            background-color: var(--green);
+            background-image: url('/images/cta_bg.png');
+
+            .SectionTitle {
+
+                .super,
+                .top {
+                    color: var(--white);
+                }
+            }
+
+            .TestimonyBlock {
+                .head {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    .img {
+                        div {
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            transition: all .25s;
+                        }
+                    }
+
+                    .text {
+                        margin-left: 10px;
+
+                        .name {
+                            font-size: 14px;
+                            color: var(--white);
+                            margin-bottom: 10px;
+                            text-transform: uppercase;
+                        }
+
+                        .company {
+                            font-size: 20px;
+                            font-weight: 800;
+                            color: var(--white);
+                        }
+                    }
+                }
+
+                .title {
+                    color: var(--orange);
+                    margin-bottom: 10px;
+                    font-size: var(--subtitle-font-size);
+                }
+
+                .body {
+                    font-size: 14px;
+                    color: var(--white);
+                }
+            }
+        }
+
+        &.partners {
+            .container {
+                div {
+                    text-align: center;
+
+                    img {
+                        width: auto;
+                        margin: auto;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+
+        &.quote {
+            background-size: cover;
+            background-position: center;
+            background-color: var(--green);
+            background-image: url('/images/quote_bg_texture.png');
+
+            .container {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .SectionTitle {
+                    margin-bottom: 20px;
+
+                    .text {
+                        .super {
+                            font-size: 1rem;
+                            color: var(--white);
+                            justify-content: center;
+                        }
+
+                        .title {
+                            font-size: 36px;
+
+                            .left {
+                                color: var(--white);
+                            }
+                        }
+                    }
+                }
+
+                button {
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        &.publications {
+            .PublicationBlock {
+                margin: 0 15px;
+                flex: 0 0 calc(100% - 30px);
+            }
+        }
+
+        &.map {
+            display: flex;
+            height: 700px;
+            position: relative;
+            flex-direction: column;
+
+            iframe {
+                z-index: 1;
+                width: 100%;
+                flex-grow: 1;
+            }
+
+            &>.info {
+                bottom: 0;
+                width: 100%;
+                z-index: 990;
+                position: static;
+
+                .container {
+                    display: flex;
+                    border-radius: 0;
+                    min-height: 205px;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: var(--white);
+
+                    &>.row {
+                        align-items: flex-end;
+
+                        .head {
+                            .super {
+                                font-size: 15px;
+                            }
+
+                            .title {
+                                color: var(--green);
+                                margin-bottom: 20px;
+                                font-size: var(--block-font-size);
+                                line-height: var(--block-font-size);
+                            }
+                        }
+
+                        .ServiceBlock {
+                            margin-top: 1rem;
+                            margin-bottom: 0;
+
+                            .icon {
+                                font-size: 40px;
+                            }
+
+                            .title {
+                                margin-bottom: 11.2px;
+                            }
+
+                            .body {
+                                min-height: auto;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .Frontend .Home {
+        .banner {
+            height: calc(100vh - var(--toolbar-top-height) - var(--toolbar-bottom-height));
+
+            .banner__container {
+                background-position: 0% 0%;
+                background-size: 200% 100%;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                background-image: linear-gradient(to right, var(--white-80) 10%, transparent, var(--white-80) 80%);
+
+                .banner__text .row {
+                    align-items: center;
+                    flex-direction: row;
+
+                    .title {
+                        margin-bottom: 20px;
+                        font-size: var(--banner-font-size-md);
+                    }
+
+                    .description {
+                        margin-bottom: 30px;
+                    }
+
+                    a {
+                        font-size: 1rem;
+                        padding: 18px 30px;
+                    }
+                }
+            }
+        }
+
+        section {
+            &.blocks .container .BlocksBlock {
+                margin-bottom: 0;
+
+                .description {
+                    height: 70px !important;
+                }
+            }
+
+            &.about {
+                p {
+                    margin-bottom: 20px;
+                }
+
+                .actions {
+
+                    a,
+                    button {
+                        margin-top: 10px;
+                    }
+
+                    .donate,
+                    .join {
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            &.newsletter {
+                form {
+                    .submit {
+                        margin-top: 30px;
+                    }
+                }
+            }
+
+            &.publications {
+                .PublicationBlock {
+                    flex: 0 0 calc(33.3333% - 30px);
+                }
+            }
+
+            &.map {
+                &>.info {
+                    bottom: 2rem;
+                    position: absolute;
+
+                    .container {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        border-radius: var(--border-radius);
+
+                        .ServiceBlock {
+                            margin-top: 0;
+                            padding-left: 0;
+
+                            .title {
+                                margin-bottom: 11px;
+                            }
+
+                            .body {
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Frontend .Home {
+        .banner {
+            height: calc(100vh - var(--toolbar-top-height) - var(--toolbar-bottom-height));
+
+            .banner__text {
+                .title {
+                    margin-bottom: 25px;
+                    font-size: var(--banner-font-size);
+                }
+
+                .description {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        section {
+            &.about {
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+
+            &.newsletter {
+                form {
+                    .submit {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

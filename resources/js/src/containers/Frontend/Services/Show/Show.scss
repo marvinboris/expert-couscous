@@ -1,0 +1,83 @@
+.Services.Show {
+    .service {
+        .container {
+            .title {
+                font-size: 24px;
+                font-weight: 700;
+                color: var(--blue);
+                margin-bottom: 16px;
+            }
+
+            .author {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                span {
+                    color: var(--blue);
+                    font-weight: 700;
+                }
+            }
+
+            .bg-img {
+                margin-bottom: 20px;
+            }
+
+            .content {
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .Services.Show {
+        .service {
+            .container {
+                .title {
+                    font-size: 27px;
+                    margin-bottom: 20px;
+                }
+
+                .author {
+                    font-size: 16px;
+                    margin-bottom: 30px;
+                }
+
+                .bg-img {
+                    margin-bottom: 30px;
+                }
+
+                .content {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Services.Show {
+        .service {
+            .container {
+                .title {
+                    font-size: 30px;
+                    margin-bottom: 24px;
+                }
+
+                .author {
+                    font-size: 18px;
+                    margin-bottom: 40px;
+                }
+
+                .bg-img {
+                    margin-bottom: 40px;
+                }
+
+                .content {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

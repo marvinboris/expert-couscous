@@ -1,0 +1,260 @@
+.Frontend .Toolbar .SocialNetworks {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+}
+
+.Frontend .Toolbar .SocialNetworks .Bouton_reseaux {
+    position: fixed;
+    bottom: 12px;
+    right: 42px;
+    transition: 0.3s;
+}
+.Frontend .Toolbar .SocialNetworks .Bouton_reseaux:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/* Main Navigation */
+.Frontend .Toolbar .SocialNetworks .blob-nav {
+    height: 100%;
+    padding: 20px;
+    -webkit-filter: url("#shadowed-goo");
+    filter: url("#shadowed-goo");
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item {
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    transition: all 0.3s ease-out;
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item:hover {
+    background-color: #e09200;
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item i {
+    transition: all 0.3s ease-out;
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item:hover i {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transform: scale(1.2);
+}
+
+.Frontend .Toolbar .SocialNetworks .toggle {
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+    z-index: 2;
+}
+
+.Frontend .Toolbar .SocialNetworks .toggle:hover {
+    -webkit-animation: bounce 1s cubic-bezier(0, 0.42, 0.42, 1);
+    animation: bounce 1s cubic-bezier(0, 0.42, 0.42, 1);
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item,
+.Frontend .Toolbar .SocialNetworks .toggle,
+.Frontend .Toolbar .SocialNetworks .wobble {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    text-align: center;
+    background-color: #2b2b2b;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: all 0.2s cubic-bezier(0, 0.42, 0.42, 1);
+    -moz-transition: all 0.2s cubic-bezier(0, 0.42, 0.42, 1);
+    -o-transition: all 0.2s cubic-bezier(0, 0.42, 0.42, 1);
+    transition: all 0.2s cubic-bezier(0, 0.42, 0.42, 1);
+    color: white;
+}
+
+.Frontend .Toolbar .SocialNetworks .nav-item i {
+    line-height: 50px;
+}
+
+.Frontend .Toolbar .SocialNetworks .toggle i {
+    line-height: 80px;
+}
+/* Wobble effect & Slideout nav */
+
+.Frontend .Toolbar .SocialNetworks .wobble {
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
+    margin-top: -35px;
+}
+/* Slide-out */
+
+.Frontend .Toolbar .SocialNetworks nav .slide-out:nth-child(1) {
+    -webkit-transform: translate(0px, -140px) scale(1.2);
+    transform: translate(-84px, -34px) scale(1.1);
+    transition: 0.3s;
+}
+
+.Frontend .Toolbar .SocialNetworks nav .slide-out:nth-child(2) {
+    -webkit-transform: translate(-90px, -110px) scale(1.2);
+    transform: translate(-5px, -105px);
+    transition: 0.5s;
+}
+
+.Frontend .Toolbar .SocialNetworks nav .slide-out:nth-child(3) {
+    -webkit-transform: translate(-90px, -20px) scale(1.2);
+    transform: translate(-52px, -77px) scale(1.1);
+    transition: 0.6s;
+}
+
+.Frontend .Toolbar .SocialNetworks nav .slide-out:nth-child(4) {
+    transform: translate(-98px, 19px);
+    transition: 0.8s;
+}
+/* Bounce */
+
+@-webkit-keyframes bounce {
+    50% {
+        -webkit-transform: scale(1.1);
+    }
+    30% {
+        -webkit-transform: scale(0.95);
+    }
+}
+
+@keyframes bounce {
+    50% {
+        transform: scale(1.1);
+    }
+    30% {
+        transform: scale(0.95);
+    }
+}
+/* Wobble effect */
+
+.Frontend .Toolbar .SocialNetworks .ripple:nth-child(1) {
+    -webkit-animation: wobble-1 1s ease-in-out;
+    animation: wobble-1 1s ease-in-out;
+}
+
+.Frontend .Toolbar .SocialNetworks .ripple:nth-child(2) {
+    -webkit-animation: wobble-2 1s linear;
+    animation: wobble-2 1s linear;
+}
+/* First blob */
+
+@-webkit-keyframes wobble-1 {
+    10% {
+        -webkit-transform: translate(-1px, 2px) scale(1.2);
+    }
+    40% {
+        -webkit-transform: translate(2px, -2px) scale(1.2);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) scale(1);
+    }
+}
+/* Second blob */
+
+@-webkit-keyframes wobble-2 {
+    20% {
+        -webkit-transform: translate(-3px, 3px) scale(1.08);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) scale(1);
+    }
+}
+
+@keyframes wobble-1 {
+    10% {
+        transform: translate(-1px, 2px) scale(1.2);
+    }
+    40% {
+        transform: translate(2px, -2px) scale(1.2);
+    }
+    100% {
+        transform: translate(0px, 0px) scale(1);
+    }
+}
+/* Second blob */
+
+@keyframes wobble-2 {
+    20% {
+        transform: translate(-3px, 3px) scale(1.08);
+    }
+    100% {
+        transform: translate(0px, 0px) scale(1);
+    }
+}
+/* Hamburger icon & Animation */
+
+.Frontend .Toolbar .SocialNetworks .hamburger {
+    width: 25px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.5px;
+    margin-top: -1.5px;
+    -webkit-transition: -webkit-transform 200ms;
+    transition: transform 200ms;
+}
+
+.Frontend .Toolbar .SocialNetworks .hamburger-1 {
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+}
+
+.Frontend .Toolbar .SocialNetworks .hamburger-2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.Frontend .Toolbar .SocialNetworks .hamburger-3 {
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
+}
+
+.Frontend .Toolbar .SocialNetworks .cross-left {
+    -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+    transform: translate3d(0, 0, 0) rotate(45deg);
+}
+
+.Frontend .Toolbar .SocialNetworks .cross-hide {
+    -webkit-transform: translate3d(0, 0, 0) scale(0.1, 1);
+    transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+
+.Frontend .Toolbar .SocialNetworks .cross-right {
+    -webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
+    transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+.Frontend .Toolbar .SocialNetworks .cred {
+    font-size: 8pt;
+    color: #666464;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+}
+
+.Frontend .Toolbar .SocialNetworks .cred:hover {
+    color: white;
+}
+
+.Frontend .Toolbar .SocialNetworks .ico_bnt_blob {
+    display: inline-block;
+    font-size: 45px;
+    position: relative;
+    top: 2px;
+  }

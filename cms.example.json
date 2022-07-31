@@ -1,0 +1,1991 @@
+{
+    "global": {
+        "app_name": "Hosamine SARL",
+        "company_name": "Hosamine SARL",
+        "company_logo": "\/images\/company-logo.png",
+        "logo": {
+            "big": "\/images\/logo.png",
+            "dark": "\/images\/logo.png",
+            "default": "\/images\/logo.png",
+            "light": "\/images\/logo-light.png",
+            "named": "\/images\/logo-named.png"
+        }
+    },
+    "pages": {
+        "fr": {
+            "general": {
+                "date": "Date",
+                "time": "Heure",
+                "home": "Accueil",
+                "days": [
+                    "Dimanche",
+                    "Lundi",
+                    "Mardi",
+                    "Mercredi",
+                    "Jeudi",
+                    "Vendredi",
+                    "Samedi"
+                ],
+                "months": [
+                    "Jan",
+                    "Fev",
+                    "Mar",
+                    "Avr",
+                    "Mai",
+                    "Jui",
+                    "Jul",
+                    "Aou",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "D\u00e9c"
+                ]
+            },
+            "components": {
+                "form": {
+                    "save": "Sauvegarder",
+                    "save_add": "Sauvegarder & ajouter",
+                    "selected_file": "Fichier s\u00e9lectionn\u00e9",
+                    "active": "Actif",
+                    "inactive": "Inactif"
+                },
+                "list": {
+                    "action": "Action",
+                    "all": "Tous",
+                    "first": "Premi\u00e8re",
+                    "last": "Derni\u00e8re",
+                    "loading": "Chargement en cours",
+                    "print": "Imprimer",
+                    "pdf": "PDF",
+                    "csv": "CSV",
+                    "excel": "Excel",
+                    "search": "Rechercher",
+                    "see": "Voir",
+                    "show": "Afficher",
+                    "sl": "SL",
+                    "showing": "Affichant",
+                    "from": "sur",
+                    "entries": {
+                        "singular": "entr\u00e9e",
+                        "plural": "entr\u00e9es"
+                    }
+                },
+                "service_block": {
+                    "read_more": "En savoir plus"
+                },
+                "publication_block": {
+                    "read_more": "Lire la suite"
+                }
+            },
+            "auth": {
+                "footer": {
+                    "copyrights": "Copyrights",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "user": {
+                    "login": {
+                        "title": "Bienvenue !",
+                        "sign_in": "Se connecter",
+                        "email_address": "Adresse mail",
+                        "password": "Mot de passe"
+                    }
+                },
+                "admin": {
+                    "login": {
+                        "sign_in_to": "Se connecter au",
+                        "sign_in": "Se connecter",
+                        "admin_panel": "Panneau de l'administrateur",
+                        "email_address": "Adresse mail",
+                        "password": "Mot de passe",
+                        "sms": "SMS",
+                        "email": "Adresse mail",
+                        "otp_method": "M\u00e9thode OTP"
+                    },
+                    "verify": {
+                        "enter": "Entrer",
+                        "verification_code": "Code de v\u00e9rification",
+                        "continue": "Continuer",
+                        "didnt_receive_code": "Aucun code re\u00e7u",
+                        "resend": "Renvoyer"
+                    }
+                }
+            },
+            "messages": {
+                "auth": {
+                    "admin": {
+                        "not_found": "Informations incorrectes.",
+                        "invalid": "Code de v\u00e9rification invalide.",
+                        "sent": "Code de v\u00e9rification envoy\u00e9 avec succ\u00e8s."
+                    },
+                    "user": {
+                        "inactive": "Votre compte n'est pas actif. Veuillez appeler l'administrateur.",
+                        "unauthorized": "Non autoris\u00e9",
+                        "sent": "Lien de r\u00e9initialisation envoy\u00e9 avec succ\u00e8s.",
+                        "reset": "Mot de passe r\u00e9initialis\u00e9 avec succ\u00e8s.",
+                        "failure": "Echec."
+                    }
+                },
+                "admins": {
+                    "not_found": "Administrateur introuvable.",
+                    "created": "Administrateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Administrateur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Administrateur supprim\u00e9 avec succ\u00e8s."
+                },
+                "users": {
+                    "not_found": "Utilisateur introuvable.",
+                    "created": "Utilisateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Utilisateur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Utilisateur supprim\u00e9 avec succ\u00e8s."
+                },
+                "roles": {
+                    "not_found": "R\u00f4le introuvable.",
+                    "created": "R\u00f4le cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "R\u00f4le modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "R\u00f4le supprim\u00e9 avec succ\u00e8s."
+                },
+                "features": {
+                    "not_found": "Fonctionnalit\u00e9 introuvable.",
+                    "created": "Fonctionnalit\u00e9 cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Fonctionnalit\u00e9 modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Fonctionnalit\u00e9 supprim\u00e9e avec succ\u00e8s."
+                },
+                "languages": {
+                    "not_found": "Langue introuvable.",
+                    "created": "Langue cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Langue modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Langue supprim\u00e9e avec succ\u00e8s."
+                },
+                "notifications": {
+                    "not_found": "Notification introuvable."
+                },
+                "cms": {
+                    "not_found": "Contenu introuvable.",
+                    "updated": "Contenu modifi\u00e9 avec succ\u00e8s."
+                },
+                "settings": {
+                    "not_found": "Param\u00e8tre introuvable.",
+                    "created": "Param\u00e8tre cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Param\u00e8tre modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Param\u00e8tre supprim\u00e9 avec succ\u00e8s."
+                },
+                "publication_categories": {
+                    "not_found": "Catégorie de publication introuvable.",
+                    "created": "Catégorie de publication cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Catégorie de publication modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Catégorie de publication supprim\u00e9e avec succ\u00e8s."
+                },
+                "publications": {
+                    "not_found": "Publication introuvable.",
+                    "created": "Publication cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Publication modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Publication supprim\u00e9e avec succ\u00e8s."
+                },
+                "subscribers": {
+                    "not_found": "Souscripteur introuvable.",
+                    "created": "Souscripteur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Souscripteur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Souscripteur supprim\u00e9 avec succ\u00e8s."
+                },
+                "services": {
+                    "not_found": "Service introuvable.",
+                    "created": "Service cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Service modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Service supprim\u00e9 avec succ\u00e8s."
+                },
+                "testimonies": {
+                    "not_found": "Témoignage introuvable.",
+                    "created": "Témoignage cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Témoignage modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Témoignage supprim\u00e9 avec succ\u00e8s."
+                },
+                "team_members": {
+                    "not_found": "Membre d'équipe introuvable.",
+                    "created": "Membre d'équipe cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Membre d'équipe modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Membre d'équipe supprim\u00e9 avec succ\u00e8s."
+                },
+                "partners": {
+                    "not_found": "Partenaire introuvable.",
+                    "created": "Partenaire cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Partenaire modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Partenaire supprim\u00e9 avec succ\u00e8s."
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Se d\u00e9connecter",
+                    "no_message": "Aucun message",
+                    "no_notification": "Aucune notification",
+                    "logout": "D\u00e9connexion",
+                    "close": "Fermer",
+                    "sure_logout": "\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter",
+                    "you_have": "Vous avez",
+                    "messages": "messages",
+                    "unread_message": "message non lu",
+                    "unread_notification": "notification non lue",
+                    "unread_messages": "messages non lus",
+                    "unread_notifications": "notifications non lues",
+                    "view_all_messages": "Voir tous les messages",
+                    "view_all_notifications": "Voir toutes les notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "sidebar": {
+                    "admin": "Administrateur",
+                    "user": "Utilisateur",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Tableau de bord"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Administrateurs",
+                            "add": "Ajouter un administrateur",
+                            "index": "Liste des administrateurs"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Utilisateurs",
+                            "add": "Ajouter un utilisateur",
+                            "index": "Liste des utilisateurs"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "R\u00f4les",
+                            "add": "Ajouter un r\u00f4le",
+                            "index": "Liste des r\u00f4les"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Fonctionnalit\u00e9s",
+                            "add": "Ajouter une fonctionnalit\u00e9",
+                            "index": "Liste des fonctionnalit\u00e9s"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Langues",
+                            "add": "Ajouter une langue",
+                            "index": "Liste des langues"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "G\u00e9n\u00e9ral",
+                            "components": "Composants",
+                            "auth": "Authentification",
+                            "messages": "Messages",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Param\u00e8tres",
+                            "cms": "CMS",
+                            "language": "Param\u00e8tres de langue"
+                        },
+                        "publication_categories": {
+                            "icon": "th-large",
+                            "title": "Catégories de publication",
+                            "add": "Ajouter une catégorie",
+                            "index": "Liste des catégories"
+                        },
+                        "publications": {
+                            "icon": "newspaper",
+                            "title": "Publications",
+                            "add": "Ajouter une publication",
+                            "index": "Liste des publications"
+                        },
+                        "subscribers": {
+                            "icon": "user",
+                            "title": "Souscripteurs",
+                            "add": "Ajouter un souscripteur",
+                            "index": "Liste des souscripteurs"
+                        },
+                        "services": {
+                            "icon": "concierge-bell",
+                            "title": "Services",
+                            "add": "Ajouter un service",
+                            "index": "Liste des services"
+                        },
+                        "testimonies": {
+                            "icon": "comments",
+                            "title": "Témoignages",
+                            "add": "Ajouter un témoignage",
+                            "index": "Liste des témoignages"
+                        },
+                        "team_members": {
+                            "icon": "user-tie",
+                            "title": "Membres d'équipe",
+                            "add": "Ajouter un membre",
+                            "index": "Liste des membres"
+                        },
+                        "partners": {
+                            "icon": "handshake",
+                            "title": "Partenaires",
+                            "add": "Ajouter un partenaire",
+                            "index": "Liste des partenaires"
+                        }
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Panneau de l'administrateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "services": "Services",
+                                "publications": "Publications",
+                                "subscribers": "Souscripteurs"
+                            },
+                            "general_report": {
+                                "title": "Rapport g\u00e9n\u00e9ral",
+                                "subtitle": "Rapport g\u00e9n\u00e9ral",
+                                "sessions": "Sessions",
+                                "publications": "Publications",
+                                "total_sessions": "Total des sessions",
+                                "total_publications": "Total des publications"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "Panneau de l'utilisateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "services": "Services",
+                                "publications": "Publications",
+                                "subscribers": "Souscripteurs"
+                            },
+                            "general_report": {
+                                "title": "Rapport g\u00e9n\u00e9ral",
+                                "subtitle": "Rapport g\u00e9n\u00e9ral",
+                                "sessions": "Sessions",
+                                "publications": "Publications",
+                                "total_sessions": "Total des sessions",
+                                "total_publications": "Total des publications"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "Nom de l'application",
+                            "company_name": "Nom de l'entreprise",
+                            "company_logo": "Logo de l'entreprise"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrateurs",
+                        "add": "Ajouter un administrateur",
+                        "edit": "Modifier un administrateur",
+                        "index": "Liste des administrateurs",
+                        "form": {
+                            "name": "Nom de l'administrateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "admin_photo": "Photo de l'administrateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Utilisateurs",
+                        "add": "Ajouter un utilisateur",
+                        "edit": "Modifier un utilisateur",
+                        "index": "Liste des utilisateurs",
+                        "form": {
+                            "name": "Nom de l'utilisateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "role": "R\u00f4le",
+                            "select_role": "S\u00e9lectionner un r\u00f4le",
+                            "user_photo": "Photo de l'utilisateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "R\u00f4les",
+                        "add": "Ajouter un r\u00f4le",
+                        "edit": "Modifier un r\u00f4le",
+                        "index": "Liste des r\u00f4les",
+                        "form": {
+                            "name": "Nom",
+                            "description": "Description",
+                            "features": "Fonctionnalit\u00e9s",
+                            "created_at": "Cr\u00e9\u00e9 le",
+                            "create": "Cr\u00e9er",
+                            "update": "Modifier",
+                            "delete": "Supprimer"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Fonctionnalit\u00e9s",
+                        "add": "Ajouter une fonctionnalit\u00e9",
+                        "edit": "Modifier une fonctionnalit\u00e9",
+                        "index": "Liste des fonctionnalit\u00e9s",
+                        "form": {
+                            "name": "Nom",
+                            "prefix": "Pr\u00e9fixe",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Langues",
+                        "add": "Ajouter une langue",
+                        "edit": "Modifier une langue",
+                        "index": "Liste des langues",
+                        "form": {
+                            "name": "Nom",
+                            "abbr": "Abr\u00e9viation",
+                            "flag": "Drapeau",
+                            "select_flag": "S\u00e9lectionner un drapeau",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "D\u00e9tails des notifications",
+                        "index": "Liste des notifications",
+                        "form": {
+                            "you_have_no_notification": "Vous n'avez pas de notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Param\u00e8tres",
+                        "subtitle": "Param\u00e8tres du compte",
+                        "language": {
+                            "title": "Paramètres de languge",
+                            "form": {
+                                "select_language": "Sélectionner une langue"
+                            }
+                        }
+                    },
+                    "publication_categories": {
+                        "icon": "th-large",
+                        "title": "Catégories de publication",
+                        "add": "Ajouter une catégorie",
+                        "edit": "Modifier une catégorie",
+                        "index": "Liste des catégories",
+                        "form": {
+                            "name": "Nom",
+                            "slug": "Slug",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "publications": {
+                        "icon": "newspaper",
+                        "title": "Publications",
+                        "add": "Ajouter une publication",
+                        "edit": "Modifier une publication",
+                        "index": "Liste des publications",
+                        "form": {
+                            "title": "Titre",
+                            "body": "Contenu",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Catégorie",
+                            "publication_category": "Catégorie de publication",
+                            "publication_photo": "Photo de la publication",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "subscribers": {
+                        "icon": "user",
+                        "title": "Souscripteurs",
+                        "add": "Ajouter un souscripteur",
+                        "edit": "Modifier un souscripteur",
+                        "index": "Liste des souscripteurs",
+                        "form": {
+                            "name": "Pr\u00e9nom",
+                            "email": "Adresse mail",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "services": {
+                        "icon": "concierge-bell",
+                        "title": "Services",
+                        "add": "Ajouter un service",
+                        "edit": "Modifier un service",
+                        "index": "Liste des services",
+                        "form": {
+                            "title": "Titre",
+                            "body": "Contenu",
+                            "icon": "Icône",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "testimonies": {
+                        "icon": "comments",
+                        "title": "Témoignages",
+                        "add": "Ajouter un témoignage",
+                        "edit": "Modifier un témoignage",
+                        "index": "Liste des témoignages",
+                        "form": {
+                            "name": "Nom",
+                            "company": "Entreprise",
+                            "title": "Titre",
+                            "body": "Contenu",
+                            "language": "Langue",
+                            "photo": "Photo",
+                            "testimony_photo": "Photo du témoignage",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "team_members": {
+                        "icon": "user-tie",
+                        "title": "Membres d'équipe",
+                        "add": "Ajouter un membre",
+                        "edit": "Modifier un membre",
+                        "index": "Liste des membres",
+                        "form": {
+                            "name": "Nom",
+                            "job": "Poste",
+                            "language": "Langue",
+                            "photo": "Photo",
+                            "team_member_photo": "Photo du membre",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "partners": {
+                        "icon": "handshake",
+                        "title": "Partenaires",
+                        "add": "Ajouter un partenaire",
+                        "edit": "Modifier un partenaire",
+                        "index": "Liste des partenaires",
+                        "form": {
+                            "name": "Nom",
+                            "language": "Langue",
+                            "photo": "Photo",
+                            "partner_photo": "Photo du partenaire",
+                            "is_active": "Statut",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "opened": {
+                        "days": "Lundi - Samedi",
+                        "hours": "8h - 17h"
+                    },
+                    "offices": {
+                        "title": "Bureaux",
+                        "value": "Douala, Deido, Total Bonateki"
+                    },
+                    "visit": {
+                        "title": "Visitez nos pages",
+                        "social_networks": [
+                            {
+                                "icon": "facebook",
+                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                            },
+                            {
+                                "icon": "twitter",
+                                "link": "https://twitter.com/MaholConsulting"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                            }
+                        ]
+                    },
+                    "menu": {
+                        "home": "Accueil",
+                        "about": "A propos",
+                        "services": "Services",
+                        "publications": "Actualités",
+                        "contact": "Contact",
+                        "tel": "671 626 262"
+                    }
+                },
+                "footer": {
+                    "top": {
+                        "company": {
+                            "title": {
+                                "top": "Notre entreprise"
+                            },
+                            "menu": {
+                                "home": "Accueil",
+                                "about": "A propos",
+                                "services": "Services",
+                                "publications": "Blog",
+                                "contact": "Contact"
+                            }
+                        },
+                        "services": {
+                            "title": {
+                                "top": "Nos services"
+                            }
+                        },
+                        "contact": {
+                            "title": {
+                                "top": "Contact"
+                            },
+                            "listen": "Nous sommes à l'écoute:",
+                            "address": "Douala, Deido, Total Bonateki",
+                            "phone": "+237 671 626 262 | +237 655 551 111",
+                            "hours": "8h - 17h, Lundi à Samedi"
+                        }
+                    },
+                    "bottom": {
+                        "all_rights": "Tous droits r\u00e9serv\u00e9s par",
+                        "social_networks": [
+                            {
+                                "icon": "facebook-square",
+                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                            },
+                            {
+                                "icon": "twitter-square",
+                                "link": "https://twitter.com/MaholConsulting"
+                            }
+                        ]
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "banner": {
+                            "title": "Hosamine SARL",
+                            "about": "A propos",
+                            "services": "Nos services",
+                            "carousel": [
+                                {
+                                    "src": "\/images\/mpi.jpg",
+                                    "head": "Que vous manque-t-il?",
+                                    "title": {
+                                        "top": "Trouver la",
+                                        "bottom": "pièce manquante"
+                                    },
+                                    "description": "Hosamine SARL est une entreprise située à Douala, Bonapriso au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire."
+                                },
+                                {
+                                    "src": "\/images\/home2.jpg",
+                                    "head": "Engagés dans votre réussite",
+                                    "title": {
+                                        "top": "Tenir",
+                                        "bottom": "La promesse"
+                                    },
+                                    "description": "Faciliter, organiser et sécuriser à moindre coût et sans délai, la rencontre entre d'une part des professionnels en capacités et d'autre part des organisations en besoin d'accompagnement pour l'amélioration de leurs performances."
+                                },
+                                {
+                                    "src": "\/images\/home21.jpg",
+                                    "head": "Nous voulons votre réussite",
+                                    "title": {
+                                        "top": "Votre succès",
+                                        "bottom": "Notre affaire"
+                                    },
+                                    "description": "Notre vision est de rendre le conseil accessible à tous et sans délai."
+                                }
+                            ]
+                        },
+                        "blocks": {
+                            "items": [
+                                {
+                                    "photo": "/images/serv211.jpg",
+                                    "super": "Un seul mot d'ordre",
+                                    "title": "Discrétion",
+                                    "description": "Avec la possibilité d'intervention en \"civil\" et une bonne protection.",
+                                    "link": "/services",
+                                    "button": "Nos services"
+                                },
+                                {
+                                    "photo": "/images/serv0.jpg",
+                                    "super": "Nous vous garantissons",
+                                    "title": "Suivi",
+                                    "description": "Traitement et accompagnement à l'élaboration des documents administratifs.",
+                                    "link": "/about",
+                                    "button": "A propos de nous"
+                                },
+                                {
+                                    "photo": "/images/serv5.jpg",
+                                    "super": "Vous êtes roi",
+                                    "title": "Rapidité & Flexibilité",
+                                    "description": "Une intervention rapide avec des horaires adaptées à votre activité.",
+                                    "link": "/contact",
+                                    "button": "Contactez-nous"
+                                }
+                            ]
+                        },
+                        "about": {
+                            "head": "Efficacité",
+                            "title": {
+                                "top": "L'expertise",
+                                "bottom": "à votre disposition"
+                            },
+                            "subtitle": "Qui sommes-nous?",
+                            "photo": "\/images\/home3.jpg",
+                            "description": "Hosamine SARL est une entreprise située à Douala, Bonapriso au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire.",
+                            "mission_title": "Notre mission",
+                            "mission_description": "Notre équipe de professionnels est agréée par le Ministère de la Santé et le MINADER. L’innovation est au cœur de notre métier de gestion globale de la salubrité. Nos prestations de services portent sur l’hygiène publique, l’assainissement et le traitement phytosanitaire.",
+                            "read_more": "En savoir plus"
+                        },
+                        "services": {
+                            "icon": "concierge-bell",
+                            "head": "Comment vous aider",
+                            "title": {
+                                "top": "Gammes de",
+                                "bottom": "Services"
+                            },
+                            "subtitle": "Nous donnons aux entreprises les clés de leur croissance",
+                            "view_all": "Voir toutes les de gammes de services"
+                        },
+                        "testimonies": {
+                            "head": "Des opinions sur nos services",
+                            "title": {
+                                "top": "Ils nous font",
+                                "bottom": "confiance"
+                            }
+                        },
+                        "quote": {
+                            "head": "Obtenir des solutions rapidement",
+                            "title": {
+                                "left": "Faites nettoyer votre maison par nos experts."
+                            },
+                            "get": "Obtenir un devis",
+                            "form": {
+                                "title": "Obtenir un devis",
+                                "subtitle": "Veuillez remplir le formulaire.",
+                                "services_title": "De quel(s) service(s) aimeriez-vous bénéficier?",
+                                "submit": "Soumettre",
+                                "first_name": "Prénom(s)",
+                                "last_name": "Nom(s)",
+                                "email": "Adresse mail",
+                                "phone": "Numéro de téléphone",
+                                "company": "Entreprise",
+                                "address": "Adresse",
+                                "message": "Précisez votre besoin, la période (date limite), votre emplacement et toute autre information nécessaire à la compréhension de la tâche"
+                            }
+                        },
+                        "publications": {
+                            "head": "Nos annonces",
+                            "title": {
+                                "left": "Dernières",
+                                "right": "Nouvelles"
+                            }
+                        },
+                        "team": {
+                            "head": "Les meilleurs des meilleurs",
+                            "title": {
+                                "left": "Rencontrez",
+                                "right": "notre équipe"
+                            }
+                        },
+                        "map": {
+                            "offices": "Bureaux",
+                            "get_in_touch": "Restez avec nous",
+                            "come_and_visit": "Venez visiter nos quartiers ou envoyez-nous simplement un e-mail quand vous le souhaitez. Nous sommes ouverts à toutes les suggestions de nos clients.",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Adresse",
+                                    "description": "Douala, Deido, Total Bonateki"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Appelez-nous",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Ecrivez-nous",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        }
+                    },
+                    "about": {
+                        "title": "A propos",
+                        "subtitle": "Qui sommes-nous?",
+                        "about": {
+                            "head": "Qui sommes-nous?",
+                            "title": {
+                                "top": "A propos de",
+                                "bottom": "Hosamine SARL"
+                            },
+                            "photo": "\/images\/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
+                            "vision": "Notre <strong>vision</strong> est de rendre le conseil accessible à tous et sans délai",
+                            "values": "Nous mettons un point d'honneur à être, en toutes circonstances objectifs et honnêtes dans les résultats que nous délivrons. Nous sommes un cabinet guidé par des valeurs fortes:<ul><li><strong>Culte de l'excellence:</strong> Une équipe d'experts professionnels et dynamiques, orientés résultats</li><li><strong>Transparence:</strong> Clarté, sécurité</li><li><strong>Proximité client:</strong> Ecoute</li></ul>",
+                            "mission": "Notre <strong>mission</strong> est de faciliter, organiser et sécuriser à moindre coût et sans délai, la rencontre entre d'une part des professionnels en capacités et d'autre part des organisations en besoin d'accompagnement pour l'amélioration de leurs performances.",
+                            "read_more": "En savoir plus"
+                        },
+                        "services": {
+                            "head": "Comment vous aider",
+                            "title": {
+                                "top": "Gammes de",
+                                "bottom": "Services"
+                            },
+                            "view_all": "Voir tous les services"
+                        },
+                        "team": {
+                            "head": "Les meilleurs des meilleurs",
+                            "title": {
+                                "left": "Rencontrez",
+                                "right": "notre équipe"
+                            }
+                        },
+                        "contact": {
+                            "head": "Pour plus d'informations",
+                            "title": {
+                                "left": "Prenez",
+                                "right": "contact"
+                            },
+                            "description": "Visitez notre agence ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
+                            "centered": "true",
+                            "name": "Nom",
+                            "email": "Adresse mail",
+                            "message": "Message",
+                            "submit": "Soumettre",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Adresse",
+                                    "description": "Douala, Deido, Total Bonateki"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Appelez-nous",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Ecrivez-nous",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        },
+                        "newsletter": {
+                            "head": "Newsletter",
+                            "title": {
+                                "left": "Besoin",
+                                "right": "de conseils?"
+                            },
+                            "centered": "true",
+                            "description": "Vous êtes arrivé au bon endroit. Entrez vos coordonnées pour obtenir de l'inspiration commerciale, des solutions tendances et des astuces de Consulting livrés dans votre boîte de réception.",
+                            "name": "Pr\u00e9nom",
+                            "email": "Adresse mail",
+                            "submit": "Soumettre"
+                        }
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "subtitle": "Contactez-nous",
+                        "contact": {
+                            "head": "Pour plus d'informations",
+                            "title": {
+                                "left": "Prenez",
+                                "right": "contact"
+                            },
+                            "description": "Visitez notre agence ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
+                            "name": "Nom",
+                            "email": "Adresse mail",
+                            "message": "Message",
+                            "submit": "Soumettre",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Adresse",
+                                    "description": "Douala, Deido, Total Bonateki"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Appelez-nous",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Ecrivez-nous",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        }
+                    },
+                    "services": {
+                        "title": "Services",
+                        "subtitle": "Nos services",
+                        "written_by": "Ecrit par",
+                        "loading": "Chargement en cours...",
+                        "services": {
+                            "head": "Comment pouvons-nous vous aider",
+                            "title": {
+                                "left": "Toutes nos",
+                                "right": "gammes de services"
+                            },
+                            "centered": "true"
+                        }
+                    },
+                    "publications": {
+                        "title": "Publications",
+                        "subtitle": "Nos publications",
+                        "written_by": "Ecrit par",
+                        "loading": "Chargement en cours...",
+                        "continue_reading": "Continuer à lire",
+                        "search": "Rechercher",
+                        "recent_posts": "Publications récentes",
+                        "publications": {
+                            "head": "Nos annonces",
+                            "title": {
+                                "left": "Dernières",
+                                "right": "Nouvelles"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "en": {
+            "general": {
+                "date": "Date",
+                "time": "Time",
+                "home": "Home",
+                "days": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "months": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                ]
+            },
+            "components": {
+                "form": {
+                    "save": "Save",
+                    "save_add": "Save & Add",
+                    "selected_file": "File selected",
+                    "active": "Active",
+                    "inactive": "Inactive"
+                },
+                "list": {
+                    "action": "Action",
+                    "all": "All",
+                    "first": "First",
+                    "last": "Last",
+                    "loading": "Loading",
+                    "print": "Print",
+                    "pdf": "PDF",
+                    "csv": "CSV",
+                    "excel": "Excel",
+                    "search": "Search",
+                    "see": "See",
+                    "show": "Show",
+                    "sl": "SL",
+                    "showing": "Showing",
+                    "from": "from",
+                    "entries": {
+                        "singular": "entry",
+                        "plural": "entries"
+                    }
+                },
+                "service_block": {
+                    "read_more": "Read more"
+                },
+                "publication_block": {
+                    "read_more": "Read more"
+                }
+            },
+            "auth": {
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "user": {
+                    "login": {
+                        "title": "Welcome User !",
+                        "sign_in": "Sign in",
+                        "email_address": "E-mail address",
+                        "password": "Password"
+                    }
+                },
+                "admin": {
+                    "login": {
+                        "sign_in_to": "Sign in to",
+                        "sign_in": "Sign in",
+                        "admin_panel": "Admin panel",
+                        "email_address": "E-mail address",
+                        "password": "Password",
+                        "sms": "SMS",
+                        "email": "E-mail address",
+                        "otp_method": "OTP Method"
+                    },
+                    "verify": {
+                        "enter": "Enter",
+                        "verification_code": "Verification code",
+                        "continue": "Continue",
+                        "didnt_receive_code": "Didn't receive code",
+                        "resend": "Resend"
+                    }
+                }
+            },
+            "messages": {
+                "auth": {
+                    "admin": {
+                        "not_found": "Invalid credentials.",
+                        "invalid": "Invalid verification code.",
+                        "sent": "Verification code successfully sent."
+                    },
+                    "user": {
+                        "inactive": "Your account is inactive. Please contact admin.",
+                        "unauthorized": "Unauthorized",
+                        "sent": "Reset link successfully sent.",
+                        "reset": "Password successfuly reset.",
+                        "failure": "Failure."
+                    }
+                },
+                "admins": {
+                    "not_found": "Admin not found.",
+                    "created": "Admin successfully created.",
+                    "updated": "Admin successfully updated.",
+                    "deleted": "Admin succesfully deleted."
+                },
+                "users": {
+                    "not_found": "User not found.",
+                    "created": "User successfully created.",
+                    "updated": "User successfully updated.",
+                    "deleted": "User succesfully deleted."
+                },
+                "roles": {
+                    "not_found": "Role not found.",
+                    "created": "Role successfully created.",
+                    "updated": "Role successfully updated.",
+                    "deleted": "Role succesfully deleted."
+                },
+                "features": {
+                    "not_found": "Feature not found.",
+                    "created": "Feature successfully created.",
+                    "updated": "Feature successfully updated.",
+                    "deleted": "Feature successfully deleted."
+                },
+                "languages": {
+                    "not_found": "Language not found.",
+                    "created": "Language successfully created.",
+                    "updated": "Language successfully updated.",
+                    "deleted": "Language successfully deleted."
+                },
+                "notifications": {
+                    "not_found": "Notification not found."
+                },
+                "cms": {
+                    "not_found": "Content not found.",
+                    "updated": "Content successfully updated."
+                },
+                "settings": {
+                    "not_found": "Setting not found.",
+                    "created": "Setting successfully created.",
+                    "updated": "Setting successfully updated.",
+                    "deleted": "Setting succesfully deleted."
+                },
+                "publication_categories": {
+                    "not_found": "Publication category not found.",
+                    "created": "Publication category successfully created.",
+                    "updated": "Publication category successfully updated.",
+                    "deleted": "Publication category successfully deleted."
+                },
+                "publications": {
+                    "not_found": "Publication not found.",
+                    "created": "Publication successfully created.",
+                    "updated": "Publication successfully updated.",
+                    "deleted": "Publication successfully deleted."
+                },
+                "subscribers": {
+                    "not_found": "Subscriber not found.",
+                    "created": "Subscriber successfully created.",
+                    "updated": "Subscriber successfully updated.",
+                    "deleted": "Subscriber succesfully deleted."
+                },
+                "services": {
+                    "not_found": "Service not found.",
+                    "created": "Service successfully created.",
+                    "updated": "Service successfully updated.",
+                    "deleted": "Service succesfully deleted."
+                },
+                "testimonies": {
+                    "not_found": "Testimony not found.",
+                    "created": "Testimony successfully created.",
+                    "updated": "Testimony successfully updated.",
+                    "deleted": "Testimony succesfully deleted."
+                },
+                "team_members": {
+                    "not_found": "Team member not found.",
+                    "created": "Team member successfully created.",
+                    "updated": "Team member successfully updated.",
+                    "deleted": "Team member succesfully deleted."
+                },
+                "partners": {
+                    "not_found": "Partner not found.",
+                    "created": "Partner successfully created.",
+                    "updated": "Partner successfully updated.",
+                    "deleted": "Partner succesfully deleted."
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Sign out",
+                    "no_message": "No message",
+                    "no_notification": "No notification",
+                    "logout": "Logout",
+                    "close": "Close",
+                    "sure_logout": "Are you sure you want to logout",
+                    "you_have": "You have",
+                    "messages": "messages",
+                    "unread_message": "unread message",
+                    "unread_notification": "unread notification",
+                    "unread_messages": "unread messages",
+                    "unread_notifications": "unread notifications",
+                    "view_all_messages": "View all messages",
+                    "view_all_notifications": "View all notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "sidebar": {
+                    "admin": "Admin",
+                    "user": "User",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Dashboard"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Admins",
+                            "add": "Add admin",
+                            "index": "Admin list"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Users",
+                            "add": "Add user",
+                            "index": "User list"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "Roles",
+                            "add": "Add role",
+                            "index": "Role list"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Features",
+                            "add": "Add feature",
+                            "index": "Feature list"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Languages",
+                            "add": "Add language",
+                            "index": "Language list"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "General",
+                            "components": "Components",
+                            "auth": "Authentification",
+                            "messages": "Messages",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Settings",
+                            "cms": "CMS",
+                            "language": "Language settings"
+                        },
+                        "publication_categories": {
+                            "icon": "th-large",
+                            "title": "Publication categories",
+                            "add": "Add category",
+                            "index": "Category list"
+                        },
+                        "publications": {
+                            "icon": "newspaper",
+                            "title": "Publications",
+                            "add": "Add publication",
+                            "index": "Publication list"
+                        },
+                        "subscribers": {
+                            "icon": "user",
+                            "title": "Subscribers",
+                            "add": "Add subscriber",
+                            "index": "Subscriber list"
+                        },
+                        "services": {
+                            "icon": "concierge-bell",
+                            "title": "Services",
+                            "add": "Add service",
+                            "index": "Service list"
+                        },
+                        "testimonies": {
+                            "icon": "comments",
+                            "title": "Testimonies",
+                            "add": "Add testimony",
+                            "index": "Testimony list"
+                        },
+                        "team_members": {
+                            "icon": "user-tie",
+                            "title": "Team members",
+                            "add": "Add member",
+                            "index": "Member list"
+                        },
+                        "partners": {
+                            "icon": "handshake",
+                            "title": "Partners",
+                            "add": "Add partner",
+                            "index": "Partner list"
+                        }
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Admin panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "events": "Events",
+                                "activities": "Activities",
+                                "elders": "Elders",
+                                "publications": "Publications",
+                                "subscribers": "Subscribers"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "User panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "events": "Events",
+                                "activities": "Activities",
+                                "elders": "Elders",
+                                "publications": "Publications",
+                                "subscribers": "Subscribers"
+                            },
+                            "general_report": {
+                                "title": "General",
+                                "subtitle": "General",
+                                "elders": "Elders",
+                                "publications": "Publications",
+                                "total_elders": "Total elders",
+                                "total_publications": "Total publications"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "App name",
+                            "company_name": "Company name",
+                            "company_logo": "Company logo"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrators",
+                        "add": "Add admin",
+                        "edit": "Edit admin",
+                        "index": "Admin list",
+                        "form": {
+                            "name": "Admin name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "admin_photo": "Admin photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Users",
+                        "add": "Add user",
+                        "edit": "Edit user",
+                        "index": "User list",
+                        "form": {
+                            "name": "User name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "role": "Role",
+                            "select_role": "Select role",
+                            "user_photo": "User photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "Roles",
+                        "add": "Add role",
+                        "edit": "Edit role",
+                        "index": "Role list",
+                        "form": {
+                            "name": "Name",
+                            "description": "Description",
+                            "features": "Features",
+                            "created_at": "Created at",
+                            "create": "Create",
+                            "update": "Update",
+                            "delete": "Delete"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Features",
+                        "add": "Add feature",
+                        "edit": "Edit feature",
+                        "index": "Feature list",
+                        "form": {
+                            "name": "Name",
+                            "prefix": "Prefix",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Languages",
+                        "add": "Add language",
+                        "edit": "Edit language",
+                        "index": "Language list",
+                        "form": {
+                            "name": "Name",
+                            "abbr": "Abbreviation",
+                            "flag": "Flag",
+                            "select_flag": "Select flag",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "Notification details",
+                        "index": "Notification list",
+                        "form": {
+                            "you_have_no_notification": "You have no notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Param\u00e8tres",
+                        "subtitle": "Param\u00e8tres du compte",
+                        "form": {
+                            "user_account": {
+                                "title": "User Account Settings",
+                                "subtitle": "User Account Settings",
+                                "name": "Full Nom",
+                                "email": "E-mail Address",
+                                "country": "Country",
+                                "city": "City",
+                                "address": "Address",
+                                "phone": "Mobile Phone No.",
+                                "select_country": "Select country"
+                            },
+                            "payment_method": {
+                                "title": "Payment Method Settings",
+                                "subtitle": "Setup your payout chanel",
+                                "mobile_money": {
+                                    "title": "Orange Money \/ MTN Momo",
+                                    "subtitle": "Only for Cameroon for now.",
+                                    "mobile_money_name": "Full Nom",
+                                    "select_operator": "Select Operator",
+                                    "orange_money": "Orange Money",
+                                    "mtn_mobile_money": "MTN Mobile Money",
+                                    "mobile_money_phone": "Provide OM Number"
+                                },
+                                "paypal": {
+                                    "title": "Paypal Account",
+                                    "paypal_email": "Your PayPal Email"
+                                }
+                            },
+                            "profile_image": {
+                                "title": "Profile Image",
+                                "subtitle": "Upload image to change profile",
+                                "id": "ID"
+                            },
+                            "affiliate_link": {
+                                "title": "Affiliate Link",
+                                "subtitle": "Invite your friends these options",
+                                "share": "Share"
+                            },
+                            "accept_payment_methods": {
+                                "title": "Accepted Payment Methods",
+                                "subtitle": "Use only these payment gateways"
+                            }
+                        },
+                        "language": {
+                            "title": "Language settings",
+                            "form": {
+                                "select_language": "Select a language"
+                            }
+                        }
+                    },
+                    "publication_categories": {
+                        "icon": "th-large",
+                        "title": "Publication categories",
+                        "add": "Add category",
+                        "edit": "Edit category",
+                        "index": "Category list",
+                        "form": {
+                            "name": "Name",
+                            "slug": "Slug",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "publications": {
+                        "icon": "newspaper",
+                        "title": "Publications",
+                        "add": "Add publication",
+                        "edit": "Edit publication",
+                        "index": "Publication list",
+                        "form": {
+                            "title": "Title",
+                            "body": "Body",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Category",
+                            "publication_photo": "Publication photo",
+                            "publication_category": "Publication category",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "subscribers": {
+                        "icon": "user",
+                        "title": "Subscribers",
+                        "add": "Add subscriber",
+                        "edit": "Edit subscriber",
+                        "index": "Subscriber list",
+                        "form": {
+                            "name": "First name",
+                            "email": "E-mail address",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "services": {
+                        "icon": "concierge-bell",
+                        "title": "Services",
+                        "add": "Add service",
+                        "edit": "Edit service",
+                        "index": "Service list",
+                        "form": {
+                            "title": "Title",
+                            "body": "Body",
+                            "icon": "Icon",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "testimonies": {
+                        "icon": "comments",
+                        "title": "Testimonies",
+                        "add": "Add testimony",
+                        "edit": "Edit testimony",
+                        "index": "Testimony list",
+                        "form": {
+                            "name": "Name",
+                            "company": "Compamy",
+                            "title": "Title",
+                            "body": "Body",
+                            "language": "Language",
+                            "photo": "Photo",
+                            "testimony_photo": "Testimony photo",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "team_members": {
+                        "icon": "user-tie",
+                        "title": "Team members",
+                        "add": "Add member",
+                        "edit": "Edit member",
+                        "index": "Member list",
+                        "form": {
+                            "name": "Name",
+                            "job": "Job",
+                            "language": "Language",
+                            "photo": "Photo",
+                            "team_member_photo": "Member photo",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "partners": {
+                        "icon": "handshake",
+                        "title": "Partners",
+                        "add": "Add partner",
+                        "edit": "Edit partner",
+                        "index": "Partner list",
+                        "form": {
+                            "name": "Name",
+                            "language": "Language",
+                            "photo": "Photo",
+                            "partner_photo": "Partner photo",
+                            "is_active": "Status",
+                            "created_at": "Created at"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "opened": {
+                        "days": "Monday - Saturday",
+                        "hours": "8h - 17h"
+                    },
+                    "offices": {
+                        "title": "Offices",
+                        "value": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                    },
+                    "visit": {
+                        "title": "Visit our pages",
+                        "social_networks": [
+                            {
+                                "icon": "facebook",
+                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                            },
+                            {
+                                "icon": "twitter",
+                                "link": "https://twitter.com/MaholConsulting"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                            }
+                        ]
+                    },
+                    "menu": {
+                        "home": "Home",
+                        "about": "About us",
+                        "services": "Services",
+                        "publications": "News",
+                        "contact": "Contact",
+                        "tel": "671 626 262"
+                    }
+                },
+                "footer": {
+                    "top": {
+                        "company": {
+                            "head": "Hosamine SARL",
+                            "title": {
+                                "top": "Our company"
+                            },
+                            "menu": {
+                                "home": "Home",
+                                "about": "About us",
+                                "services": "Services",
+                                "publications": "News",
+                                "contact": "Contact"
+                            }
+                        },
+                        "services": {
+                            "head": "We offer",
+                            "title": {
+                                "top": "Our services"
+                            }
+                        },
+                        "contact": {
+                            "head": "Get in touch",
+                            "title": {
+                                "top": "Contact"
+                            },
+                            "listen": "We are listening:",
+                            "address": "Douala, Bonapriso, behind Lycée Mongo Joseph",
+                            "phone": "+237 671 626 262 | +237 655 551 111",
+                            "hours": "8h - 17h, Monday to Saturday"
+                        }
+                    },
+                    "bottom": {
+                        "all_rights": "All rights reserved by",
+                        "social_networks": [
+                            {
+                                "icon": "facebook-square",
+                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                            },
+                            {
+                                "icon": "twitter-square",
+                                "link": "https://twitter.com/MaholConsulting"
+                            }
+                        ]
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "banner": {
+                            "title": "Hosamine SARL",
+                            "about": "About us",
+                            "services": "Our services",
+                            "carousel": [
+                                {
+                                    "src": "\/images\/smiling-confident.jpg",
+                                    "head": "What are you missing?",
+                                    "title": {
+                                        "top": "Find that",
+                                        "bottom": "Missing piece"
+                                    },
+                                    "description": "Hosamine SARL is a consulting firm located in Douala, Cameroon, specializing in organizational management and corporate financial engineering."
+                                },
+                                {
+                                    "src": "\/images\/african-american-afro-american-analyzing-black-people-brainstorming-1434697-pxhere.com.jpg",
+                                    "head": "Committed to your success",
+                                    "title": {
+                                        "top": "Delivering",
+                                        "bottom": "That promise"
+                                    },
+                                    "description": "Facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for the improvement of their performances."
+                                },
+                                {
+                                    "src": "\/images\/confident-woman.jpg",
+                                    "head": "We want you to succeed",
+                                    "title": {
+                                        "top": "Your success",
+                                        "bottom": "Our business"
+                                    },
+                                    "description": "Our vision is to make advice accessible to everyone and without delay."
+                                }
+                            ]
+                        },
+                        "blocks": {
+                            "items": [
+                                {
+                                    "photo": "/images/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
+                                    "super": "A single watchword",
+                                    "title": "Excellence",
+                                    "description": "A team of professional and dynamic experts, results oriented.",
+                                    "link": "/services",
+                                    "button": "Our services"
+                                },
+                                {
+                                    "photo": "/images/african-african-american-amazing-awesome-bangkok-black-1567381-pxhere.com.jpg",
+                                    "super": "We guarantee you",
+                                    "title": "Transparency",
+                                    "description": "En plus de la clarté, nous vous garantissons une sécurité sans faille.",
+                                    "link": "/about",
+                                    "button": "About us"
+                                },
+                                {
+                                    "photo": "/images/image-right-creative3.jpg",
+                                    "super": "You are king",
+                                    "title": "Customer relationship",
+                                    "description": "We are always listening to our customers for their greatest satisfaction.",
+                                    "link": "/contact",
+                                    "button": "Contact us"
+                                }
+                            ]
+                        },
+                        "about": {
+                            "head": "Efficiency",
+                            "title": {
+                                "top": "The expertise",
+                                "bottom": "at your disposal"
+                            },
+                            "subtitle": "Who are we?",
+                            "photo": "\/images\/image-right9.png",
+                            "description": "Hosamine SARL is a consulting firm located in Douala, Cameroon, specializing in organizational management and corporate financial engineering.",
+                            "mission_title": "Our mission",
+                            "mission_description": "Facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for the improvement of their performances.",
+                            "read_more": "Read more"
+                        },
+                        "services": {
+                            "icon": "concierge-bell",
+                            "head": "How can we help you",
+                            "title": {
+                                "top": "Service",
+                                "bottom": "lines"
+                            },
+                            "subtitle": "We give companies the keys to their growth",
+                            "view_all": "View all services"
+                        },
+                        "testimonies": {
+                            "head": "Great reviews of our services",
+                            "title": {
+                                "top": "Trusted by",
+                                "bottom": "Big Names"
+                            }
+                        },
+                        "quote": {
+                            "head": "Get solutions fast",
+                            "title": {
+                                "left": "Searching for a First-Class Consultant?"
+                            },
+                            "get": "Get a Quote",
+                            "form": {
+                                "title": "Get a Quote",
+                                "subtitle": "Please complete the form.",
+                                "services_title": "What service(s) would you like to benefit from?",
+                                "submit": "Submit",
+                                "first_name": "First name",
+                                "last_name": "Last name",
+                                "email": "E-mail address",
+                                "phone": "Phone number",
+                                "company": "Compamy",
+                                "address": "Address",
+                                "message": "Specify your need, the period (deadline), your location and any other information necessary to understand the task"
+                            }
+                        },
+                        "publications": {
+                            "head": "Our announcements",
+                            "title": {
+                                "left": "Latest",
+                                "right": "News"
+                            }
+                        },
+                        "team": {
+                            "head": "The best of the best",
+                            "title": {
+                                "left": "Meet",
+                                "right": "our team"
+                            }
+                        },
+                        "map": {
+                            "offices": "Offices",
+                            "get_in_touch": "Get in touch",
+                            "come_and_visit": "Come and visit our neighborhoods or just send us an e-mail whenever you want. We are open to all suggestions from our customers.",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Address",
+                                    "description": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Call us",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Email us",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        }
+                    },
+                    "about": {
+                        "title": "About us",
+                        "subtitle": "Who are we?",
+                        "about": {
+                            "head": "Who are we?",
+                            "title": {
+                                "top": "About",
+                                "bottom": "Hosamine SARL"
+                            },
+                            "photo": "\/images\/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
+                            "vision": "Our <strong>vision</strong> is to make advice accessible to everyone and without delay",
+                            "values": "We make it a point of honor to be, in all circumstances, objective and honest in the results we deliver. We are a firm guided by strong values:<ul><li><strong>Cult of excellence:</strong> A team of professional and dynamic experts, results-oriented</li><li><strong> Transparency:</strong> Clarity, security</li><li><strong>Client proximity:</strong> Listening</li></ul>",
+                            "mission": "Our <strong>mission</strong> is to facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for improvement. of their performance.",
+                            "read_more": "Read more"
+                        },
+                        "services": {
+                            "head": "How can we help you",
+                            "title": {
+                                "top": "Service",
+                                "bottom": "lines"
+                            },
+                            "view_all": "View all services"
+                        },
+                        "team": {
+                            "head": "The best of the best",
+                            "title": {
+                                "left": "Meet",
+                                "right": "our team"
+                            }
+                        },
+                        "contact": {
+                            "head": "For more information",
+                            "title": {
+                                "left": "Get in",
+                                "right": "touch"
+                            },
+                            "description": "Visit our agency or just send us an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
+                            "centered": "true",
+                            "name": "Name",
+                            "email": "E-mail address",
+                            "message": "Message",
+                            "submit": "Submit",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Address",
+                                    "description": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Call us",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Email us",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        },
+                        "newsletter": {
+                            "head": "Newsletter",
+                            "title": {
+                                "left": "Need",
+                                "right": "consultancy?"
+                            },
+                            "centered": "true",
+                            "description": "You have come to the right place. Enter your details to get business inspiration, trending solutions and Consulting tips delivered to your inbox.",
+                            "name": "First name",
+                            "email": "E-mail address",
+                            "submit": "Submit"
+                        }
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "subtitle": "Contact us",
+                        "contact": {
+                            "head": "For more information",
+                            "title": {
+                                "left": "Get in",
+                                "right": "touch"
+                            },
+                            "description": "Visit our agency or just send us an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
+                            "name": "Name",
+                            "email": "E-mail address",
+                            "message": "Message",
+                            "submit": "Submit",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Address",
+                                    "description": "Douala, Bonapriso, behing Lycée Mongo Joseph"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Call us",
+                                    "description": "+237 671 626 262 | +237 655 551 111"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Email us",
+                                    "description": "contact@hosamine.net"
+                                }
+                            ]
+                        }
+                    },
+                    "services": {
+                        "title": "Services",
+                        "subtitle": "Our services",
+                        "written_by": "Written by",
+                        "loading": "Loading...",
+                        "services": {
+                            "head": "How can we help you",
+                            "title": {
+                                "left": "All our",
+                                "right": "Services"
+                            },
+                            "centered": "true"
+                        }
+                    },
+                    "publications": {
+                        "title": "News",
+                        "subtitle": "Our announcements",
+                        "written_by": "Written by",
+                        "loading": "Loading...",
+                        "continue_reading": "Continue reading",
+                        "search": "Rechercher",
+                        "recent_posts": "Recent posts",
+                        "publications": {
+                            "head": "Our announcements",
+                            "title": {
+                                "left": "Latest",
+                                "right": "News"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

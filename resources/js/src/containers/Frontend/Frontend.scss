@@ -1,0 +1,211 @@
+.Frontend {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--white);
+
+    .main {
+        flex-grow: 1;
+
+        section {
+            &>.container {
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                img {
+                    border-radius: 0;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+
+                .view-all {
+                    font-size: 14px;
+                    margin-top: 20px;
+                    text-align: center;
+                    padding: 15.75px 26.25px;
+                }
+            }
+        }
+    }
+
+    .btn {
+        border: none;
+        border-radius: 0;
+        font-weight: 700;
+        font-size: 12.25px;
+        line-height: 13.475px;
+        padding: 14.875px 17.5px;
+        box-shadow: 0 -2px 0 0 rgba(24, 24, 24, .15) inset;
+
+        i {
+            margin-left: 7px;
+        }
+    }
+
+    .super {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        align-items: center;
+        margin-bottom: .6em;
+        color: var(--orange);
+        text-transform: uppercase;
+        justify-content: flex-start;
+        // font-family: 'Roboto Condensed', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .title {
+        line-height: 1;
+        font-weight: 800;
+        letter-spacing: -.03em;
+        // font-family: Sarabun, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .icon {
+        margin-top: -10px;
+    }
+
+    footer {
+        &>.top {
+            font-size: 14px;
+            padding: 2rem 0;
+            color: var(--white);
+            background-color: var(--green);
+
+            .SectionTitle {
+                .super {
+                    font-size: 14px;
+                }
+
+                .title {
+                    font-size: 20px;
+                    margin-bottom: 4px;
+
+                    .top {
+                        color: var(--orange);
+                    }
+                }
+            }
+
+            a {
+                display: block;
+                color: var(--white);
+            }
+
+            .services>div {
+                margin: 2rem 0;
+                padding: 2rem 0;
+                border-top: .5px solid var(--white-50);
+                border-bottom: .5px solid var(--white-50);
+            }
+
+            .contact {
+                .content>div {
+                    display: flex;
+                    align-items: center;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        &>.bottom {
+            padding: 20px 0;
+            color: var(--green);
+            background-color: var(--white);
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                a.app-name {
+                    font-weight: 700;
+                    color: var(--green);
+                }
+
+                .social-networks a {
+                    font-size: 36px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: var(--green);
+                    text-decoration: none;
+                }
+
+                &>div:first-of-type {
+                    flex: 0 0 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .Frontend {
+        .main {
+            section {
+                &>.container {
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+
+                    p {
+                        margin-bottom: 30px;
+                    }
+
+                    .view-all {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+
+        footer {
+            &>.top .services>div {
+                margin: 0;
+                padding: 0;
+                border: none;
+            }
+
+            &>.bottom .container>div:first-of-type {
+                flex: 0 0 auto;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Frontend {
+        .main {
+            section {
+                &>.container {
+                    padding-top: 80px;
+                    padding-bottom: 80px;
+
+                    p {
+                        margin-bottom: 40px;
+                    }
+
+                    .view-all {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+
+        .btn {
+            padding: 13px 25px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}

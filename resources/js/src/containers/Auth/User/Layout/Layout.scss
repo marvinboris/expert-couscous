@@ -1,0 +1,63 @@
+.Auth.User.Layout {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url('/images/customer-auth-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--border);
+    font-size: 14px;
+
+    header {
+        padding-top: 15px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        border-top: .25px solid var(--border-20);
+        color: var(--border);
+        text-align: center;
+        padding: 14px 0 10px 0;
+
+        .special {
+            color: var(--green);
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .Auth.User.Layout {
+        font-size: 16px;
+
+        header {
+            padding-top: 30px;
+        }
+
+        footer {
+            padding: 18px 0 13px 0;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Auth.User.Layout {
+        font-size: 18px;
+
+        header {
+            padding-top: 45px;
+        }
+
+        footer {
+            padding: 22px 0 16px 0;
+        }
+    }
+}

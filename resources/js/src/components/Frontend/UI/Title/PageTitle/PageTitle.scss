@@ -1,0 +1,35 @@
+.PageTitle {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--green-80), var(--green-80)), url('/images/african-african-american-at-at-symbol-bangkok-black-1457821-pxhere.com.jpg');
+
+    &::after {
+        top: 0;
+        left: 0;
+        content: "";
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+        position: absolute;
+        background-color: var(--black);
+    }
+
+    .container {
+        display: flex;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        align-items: center;
+        color: var(--white);
+        flex-direction: column;
+        justify-content: center;
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 7px;
+            border-bottom: .5px solid var(--white);
+        }
+    }
+}

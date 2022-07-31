@@ -1,0 +1,19 @@
+.Backend.Manager .Dashboard .Card {
+    padding: 15px 30px 31px 24px;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin-bottom: 4px;
+}
+
+.Backend.Manager .Dashboard .Card .title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Backend.Manager .Dashboard .Card .line {
+    height: 4px;
+    width: 15px;
+    border-radius: 1.8px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}

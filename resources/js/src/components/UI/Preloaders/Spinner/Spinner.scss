@@ -1,0 +1,81 @@
+.UI.Spinner {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/customer-auth-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .content {
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        display: flex;
+        height: 200px;
+        padding: 2rem;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        background-color: transparent;
+        transform: translate(-50%, -50%);
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .loader {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            border: 10px solid transparent;
+            border-top-color: var(--green);
+        }
+
+        &:before {
+            z-index: 100;
+            animation: spin 1s infinite;
+        }
+
+        &:after {
+            border: 10px solid #ccc;
+        }
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

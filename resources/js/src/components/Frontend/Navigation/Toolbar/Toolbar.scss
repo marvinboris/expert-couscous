@@ -1,0 +1,192 @@
+.Frontend .Toolbar {
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    position: sticky;
+    background: var(--white);
+
+    .top {
+        display: none;
+        font-size: 14px;
+        background-color: var(--green);
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: var(--toolbar-top-height);
+
+            &>div {
+                display: flex;
+                align-items: center;
+
+                i {
+                    color: var(--orange);
+                    margin-right: .5rem;
+                }
+
+                .label {
+                    color: var(--white);
+                }
+
+                .value {
+                    color: var(--white-50);
+                    margin-left: .5rem;
+                }
+
+                &.offices {
+                    margin-left: 1.5rem;
+                }
+
+                &.visit {
+                    margin-left: auto;
+
+                    a {
+                        color: var(--orange);
+                        margin-left: 1.5rem;
+
+                        i {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        background-color: var(--white);
+
+        &>.container {
+            min-height: var(--toolbar-bottom-height-sm);
+        }
+
+        &>.container,
+        &>.container .items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .tel,
+            .freelance {
+                display: none;
+                font-weight: 700;
+
+                i {
+                    margin-left: 0;
+                    margin-right: .5rem;
+                }
+            }
+
+            .tel {
+                margin-right: .5rem;
+            }
+        }
+
+        .collapse {
+            &>.container {
+
+                .tel {
+                    margin: 0;
+
+                    i {
+                        margin-left: 0;
+                        margin-right: .5rem;
+                    }
+                }
+            }
+
+            &>.info {
+                padding: .5rem 1rem;
+                text-align: center;
+                color: var(--white);
+                background-color: var(--green);
+
+                i {
+                    color: var(--orange);
+                    font-size: var(--block-font-size-sm);
+                }
+
+                .value {
+                    color: var(--white-50);
+                }
+
+                .visit {
+                    margin-top: .5rem;
+                    padding-top: .5rem;
+                    border-top: .5px solid var(--white-50);
+
+                    .label {
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        margin-left: .5rem;
+                        color: var(--orange);
+                        font-size: var(--block-font-size-sm);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .Frontend .Toolbar {
+        top: calc(-1 * var(--toolbar-top-height));
+
+        .top {
+            display: block;
+
+            .container {
+                height: var(--toolbar-top-height);
+
+                &>div {
+                    display: flex;
+                    align-items: center;
+
+                    i {
+                        margin-right: .5rem;
+                    }
+
+                    .value {
+                        margin-left: .5rem;
+                    }
+
+                    &.offices {
+                        margin-left: 1.5rem;
+                    }
+
+                    &.visit {
+                        margin-left: auto;
+
+                        a {
+                            margin-left: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            &>.container {
+                height: var(--toolbar-bottom-height);
+            }
+
+            &>.container,
+            &>.container .items {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .tel {
+                    display: block;
+
+                    i {
+                        margin-left: 0;
+                        margin-right: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.UI.ServiceBlock {
+    margin-bottom: 20px;
+
+    .info {
+        display: flex;
+        overflow: hidden;
+        align-items: flex-start;
+
+        .icon {
+            font-size: 56px;
+            color: var(--orange);
+            padding-right: 14px;
+        }
+
+        .text {
+            flex: 0 0 calc(100% - 84px);
+            max-width: calc(100% - 84px);
+
+            .title {
+                color: var(--green);
+                margin-bottom: 11.2px;
+                text-decoration: none;
+                font-size: var(--subtitle-font-size);
+            }
+
+            .body {
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+}

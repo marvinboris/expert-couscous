@@ -1,0 +1,33 @@
+.Frontend .Services {
+    section {
+        .container {
+            .PublicationBlock {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .Frontend .Services {
+        section {
+            .container {
+                .PublicationBlock {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Frontend .Services {
+        section {
+            .container {
+                .PublicationBlock {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}

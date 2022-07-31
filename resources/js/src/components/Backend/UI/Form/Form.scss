@@ -1,0 +1,83 @@
+.UI.Form {
+    border-radius: var(--border-radius);
+    padding: 16px 16px 48px 16px;
+    background-color: var(--white);
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        justify-content: space-between;
+
+        .title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        .blue-line {
+            width: 33px;
+            height: 7px;
+            border-radius: 5px;
+            background-color: var(--blue);
+        }
+
+        .link {
+            i {
+                margin-left: 0;
+            }
+
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .UI.Form {
+        padding: 26px 33px 62px 33px;
+
+        .header {
+            margin-bottom: 40px;
+
+            .title {
+                font-size: 20px;
+            }
+
+            .subtitle {
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+
+            .link {
+                i {
+                    margin-left: 10px;
+                }
+
+                span {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .UI.Form {
+        padding: 36px 51px 75px 51px;
+
+        .header {
+            margin-bottom: 64px;
+
+            .subtitle {
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

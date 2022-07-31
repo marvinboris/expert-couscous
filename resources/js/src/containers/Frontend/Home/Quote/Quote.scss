@@ -1,0 +1,28 @@
+.Quote {
+    .title {
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--green);
+    }
+
+    .subtitle {
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .services-title {
+        margin-bottom: .5rem;
+    }
+
+    .submit {
+        margin-top: 40px;
+
+        button {
+            padding: 13px 25px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}

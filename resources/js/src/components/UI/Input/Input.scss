@@ -1,0 +1,201 @@
+.UI.Input {
+    position: relative;
+
+    ::placeholder {
+        color: var(--border-50);
+        opacity: 1;
+    }
+
+    label:not(.control-label) {
+        position: absolute;
+        left: 75px;
+        top: .75rem;
+        z-index: 1;
+        max-width: calc(100% - 76px - .75rem);
+    }
+
+    .form-control[required]+label:not(.control-label)::after {
+        content: "*";
+        color: red;
+    }
+
+    .form-control[readonly]+label:not(.control-label),
+    .form-control[disabled]+label:not(.control-label),
+    .form-control[required]:valid+label:not(.control-label),
+    input:not([value=""])+label:not(.control-label),
+    textarea:not(:invalid)+label:not(.control-label) {
+        display: none;
+    }
+
+    .input-group {
+        border: none;
+        display: flex;
+        overflow: hidden;
+        border-radius: var(--border-radius);
+        align-items: center;
+        background-color: var(--white);
+        box-shadow: 0 0 0 1px var(--border-10);
+    }
+
+    .input-group-prepend {
+        z-index: 10;
+        height: 45px;
+        position: relative;
+
+        .input-group-text {
+            width: 57px;
+            border: none;
+            display: block;
+            padding: 3px 18px;
+            position: relative;
+            color: var(--border-30);
+            background-color: transparent;
+
+            .icon {
+                top: 50%;
+                left: 50%;
+                margin: 0 3px;
+                position: absolute;
+                color: var(--blue);
+                transform: translate(-50%, -50%);
+            }
+
+            .addon {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                position: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .circle {
+                top: 50%;
+                left: 100%;
+                width: 10px;
+                height: 10px;
+                overflow: hidden;
+                position: absolute;
+                border-radius: 50%;
+                background-color: var(--white);
+                transform: translate(-50%, calc(-50% - 2px));
+
+                &::after {
+                    top: 0;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    z-index: -1;
+                    height: 100%;
+                    position: absolute;
+                    background-color: var(--border-10);
+                }
+            }
+        }
+    }
+
+    .form-control,
+    select {
+        border: none;
+        height: 45px;
+        color: inherit;
+        box-shadow: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    textarea {
+        min-height: 112px;
+    }
+
+    .embed-responsive {
+        display: flex;
+        cursor: pointer;
+        overflow: visible;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--border-10);
+        border-radius: var(--border-radius);
+        box-shadow: 0 0 0 1px var(--border-10);
+
+        .image-selected {
+            width: 100%;
+            text-align: center;
+            color: var(--green);
+
+            .check-circle {
+                top: 0;
+                right: 0;
+                position: absolute;
+                transform: translate(50%, -50%);
+            }
+
+            .file-selected {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                padding: 8px 15px;
+                position: absolute;
+                color: var(--white);
+                background-color: var(--black-70);
+                border-bottom-left-radius: var(--border-radius);
+                border-bottom-right-radius: var(--border-radius);
+            }
+        }
+
+        .select-image {
+            width: 100%;
+            padding: 0 16px;
+            overflow: hidden;
+            text-align: center;
+            color: var(--border-50);
+
+            .upload {
+                margin-top: 16px;
+                margin-bottom: 4px;
+                text-align: center;
+            }
+        }
+    }
+
+    .control-label {
+        font-weight: 500;
+    }
+
+    .input-group-append .input-group-text {
+        border: none;
+        padding: 0 24px;
+        color: var(--border);
+        background-color: transparent;
+    }
+
+    &.lg {
+        .input-group {
+            border-radius: calc(var(--border-radius) * 2);
+        }
+
+        .input-group-prepend {
+            height: 82px;
+
+            .input-group-text {
+                padding-left: 39px;
+                padding-right: 28px;
+            }
+        }
+
+        .form-control,
+        select {
+            height: 82px;
+            font-size: 18px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    &.inactive .input-group-prepend .input-group-text .addon {
+        background-color: var(--readonly);
+    }
+}
