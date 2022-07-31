@@ -26,9 +26,9 @@ class UserSeeder extends Seeder
                 'language_id' => 1,
             ],
             [
-                'name' => 'Mahol Consulting',
-                'email' => 'contact@maholconsulting.com',
-                'phone' => '237699743843',
+                'name' => 'Hosamine SARL',
+                'email' => 'contact@hosamine.net',
+                'phone' => '237671626262',
                 'password' => Hash::make('12345'),
                 'role_id' => Role::first()->id,
                 'language_id' => 1,
