@@ -1,7 +1,7 @@
 export default {
     "header": {
         "opened": {
-            "days": "Lundi - Samedi",
+            "days": "Lundi - Vendredi",
             "hours": "8h - 17h"
         },
         "offices": {
@@ -31,7 +31,7 @@ export default {
             "services": "Services",
             "publications": "Actualités",
             "contact": "Contact",
-            "tel": "671 626 262"
+            "tel": "696 966 555"
         }
     },
     "footer": {
@@ -59,7 +59,7 @@ export default {
                 },
                 "listen": "Nous sommes à l'écoute:",
                 "address": "Douala, Deido, Total Bonateki",
-                "phone": "+237 671 626 262 | +237 655 551 111",
+                "phone": "+237 696 966 555 | +237 655 551 111",
                 "hours": "8h - 17h, Lundi à Samedi"
             }
         },
@@ -221,7 +221,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 671 626 262 | +237 655 551 111"
+                        "description": "+237 696 966 555 | +237 655 551 111"
                     },
                     {
                         "icon": "envelope",
@@ -242,8 +242,8 @@ export default {
                 },
                 "photo": "\/images\/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
                 "vision": "Notre <strong>devise</strong> est: Ethique - Déontologie - Professionnalisme - Respect de l’environnement",
-                "mission": "Nous mettons un point d'honneur à être, en toutes circonstances objectifs et honnêtes dans les résultats que nous délivrons. Nous sommes un cabinet guidé par des valeurs fortes:<ul><li><strong>Culte de l'excellence:</strong> Une équipe d'experts professionnels et dynamiques, orientés résultats</li><li><strong>Transparence:</strong> Clarté, sécurité</li><li><strong>Proximité client:</strong> Ecoute</li></ul>",
-                "values": "Notre <strong>mission</strong> est d’agrandir le champ du possible par l’innovation dans le domaine de l’hygiène publique, de l’assainissement et du traitement phytosanitaire; faire la différence en offrant la possibilité aux professionnels autant qu’aux particuliers de disposer d’un environnement sain garant de bien être, de confort et de bonne qualité de vie.<br /><br />Evaluer les risques, appliquer les démarches sécurité, l’usage des Equipements de Protection Individuel (EPI) adaptés et des produits homologués, tout est mis en œuvre pour tendre vers un seul objectif : zéro accident lors de nos interventions.<br /><br />Nous respectons les procédures, les normes édictées en la matière ainsi que les délais contractuels.<br /><br />Nos interventions sont préventives ou curatives.",
+                "values": "Hosamine est une SARL de droit camerounais agréée par le MINSANTE et le MINADER, l’innovation est au cœur de notre métier de gestion globale de la salubrité. Nos prestations de services portent sur l’hygiène publique l’assainissement et le traitement phytosanitaire.<br /><br />Hosamine regroupe en son sein une équipe compétente, dynamique avec des connaissances approfondies dans le métier capable de répondre à vos demandes vous écouter et conseiller tout en respectant les délais convenus.",
+                "mission": "Notre <strong>mission</strong> est d’agrandir le champ du possible par l’innovation dans le domaine de l’hygiène publique, de l’assainissement et du traitement phytosanitaire; faire la différence en offrant la possibilité aux professionnels autant qu’aux particuliers de disposer d’un environnement sain garant de bien être, de confort et de bonne qualité de vie.<br /><br />Evaluer les risques, appliquer les démarches sécurité, l’usage des Equipements de Protection Individuel (EPI) adaptés et des produits homologués, tout est mis en œuvre pour tendre vers un seul objectif : zéro accident lors de nos interventions.<br /><br />Nous respectons les procédures, les normes édictées en la matière ainsi que les délais contractuels.<br /><br />Nos interventions sont préventives ou curatives.",
                 "read_more": "En savoir plus"
             },
             "services": {
@@ -282,7 +282,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 671 626 262 | +237 655 551 111"
+                        "description": "+237 696 966 555 | +237 655 551 111"
                     },
                     {
                         "icon": "envelope",
@@ -327,7 +327,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 671 626 262 | +237 655 551 111"
+                        "description": "+237 696 966 555 | +237 655 551 111"
                     },
                     {
                         "icon": "envelope",
