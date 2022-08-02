@@ -72,7 +72,7 @@ class FrontendController extends Controller
             'last_name' => 'required|string',
             'email' => 'required|email',
             'phone' => 'required|string',
-            'company' => 'required|string',
+            'location' => 'required|string',
             'address' => 'required|string',
             'message' => 'required|string',
         ]);

@@ -45,7 +45,7 @@ class QuoteNotification extends Notification
         return (new MailMessage)
             ->greeting('Nouvelle demande de devis !')
             ->line('Nom(s) et prénom(s): ' . $this->quote['first_name'] . ' ' . $this->quote['last_name'])
-            ->line('Entreprise: ' . $this->quote['company'])
+            ->line('Localisation: ' . $this->quote['location'])
             ->line('Adresse mail: ' . $this->quote['email'])
             ->line('Numéro de téléphone: ' . $this->quote['phone'])
             ->line('Service(s) demandé(s): ' . implode(', ', $this->quote['services']))

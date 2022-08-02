@@ -105,13 +105,13 @@ class About extends Component {
                 </div>
             </section>
 
-            <section className='team'>
+            {/* <section className='team'>
                 <div className='container'>
                     <SectionTitle {...cms.team} />
 
                     {team.length > 0 && <OwlCarousel ref="team-carousel" options={{ responsive: { 0: { items: 1 }, 600: { items: 2 }, 900: { items: 3 }, 1200: { items: 4 } }, dots: false, margin: 20 }}>{teamContent}</OwlCarousel>}
                 </div>
-            </section>
+            </section> */}
 
             <section className='services'>
                 <div className='container'>

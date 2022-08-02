@@ -19,7 +19,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="icon" href="{{ asset('images/logo-32x32.png') }}">
 </head>
-<body class="scrollbar-blue">
+<body class="scrollbar-green">
     <div id="app">
     </div>
 </body>

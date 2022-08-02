@@ -619,15 +619,15 @@
                         "social_networks": [
                             {
                                 "icon": "facebook",
-                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                                "link": "https://www.facebook.com/Hosaminesarl/"
                             },
                             {
-                                "icon": "twitter",
-                                "link": "https://twitter.com/MaholConsulting"
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237696966555"
                             },
                             {
                                 "icon": "linkedin",
-                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
                             }
                         ]
                     },
@@ -674,15 +674,15 @@
                         "social_networks": [
                             {
                                 "icon": "facebook-square",
-                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                                "link": "https://www.facebook.com/Hosaminesarl/"
                             },
                             {
                                 "icon": "linkedin",
-                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
                             },
                             {
-                                "icon": "twitter-square",
-                                "link": "https://twitter.com/MaholConsulting"
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237696966555"
                             }
                         ]
                     }
@@ -696,30 +696,30 @@
                             "carousel": [
                                 {
                                     "src": "\/images\/mpi.jpg",
-                                    "head": "Que vous manque-t-il?",
+                                    "head": "Qui pour gérer les nuisibles?",
                                     "title": {
-                                        "top": "Trouver la",
-                                        "bottom": "pièce manquante"
+                                        "top": "L'expert",
+                                        "bottom": "de l'hygiène"
                                     },
-                                    "description": "Hosamine SARL est une entreprise située à Douala, Bonapriso au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire."
+                                    "description": "Hosamine SARL est une entreprise de droit camerounais, agrée par le MINSANTE et le MINADER, qui a pour cœur de métier global principal l’innovation dans la gestion de la salubrité."
                                 },
                                 {
                                     "src": "\/images\/home2.jpg",
-                                    "head": "Engagés dans votre réussite",
+                                    "head": "Un service sur mesure",
                                     "title": {
-                                        "top": "Tenir",
-                                        "bottom": "La promesse"
+                                        "top": "A l'écoute",
+                                        "bottom": "de vos besoins"
                                     },
-                                    "description": "Faciliter, organiser et sécuriser à moindre coût et sans délai, la rencontre entre d'une part des professionnels en capacités et d'autre part des organisations en besoin d'accompagnement pour l'amélioration de leurs performances."
+                                    "description": "Hosamine SARL regroupe en son sein une équipe compétente, dynamique avec des connaissances approfondies dans le métier."
                                 },
                                 {
                                     "src": "\/images\/home21.jpg",
-                                    "head": "Nous voulons votre réussite",
+                                    "head": "A votre écoute pour des prestations de qualité",
                                     "title": {
-                                        "top": "Votre succès",
-                                        "bottom": "Notre affaire"
+                                        "top": "Notre démarche",
+                                        "bottom": "Qualité"
                                     },
-                                    "description": "Notre vision est de rendre le conseil accessible à tous et sans délai."
+                                    "description": "Tout est mis en œuvre pour tendre vers un seul objectif : zéro accident."
                                 }
                             ]
                         },
@@ -759,7 +759,7 @@
                             },
                             "subtitle": "Qui sommes-nous?",
                             "photo": "\/images\/home3.jpg",
-                            "description": "Hosamine SARL est une entreprise située à Douala, Bonapriso au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire.",
+                            "description": "Hosamine SARL est une entreprise située à Douala, Deido, Total Bonateki au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire.",
                             "mission_title": "Notre mission",
                             "mission_description": "Notre équipe de professionnels est agréée par le Ministère de la Santé et le MINADER. L’innovation est au cœur de notre métier de gestion globale de la salubrité. Nos prestations de services portent sur l’hygiène publique, l’assainissement et le traitement phytosanitaire.",
                             "read_more": "En savoir plus"
@@ -771,7 +771,6 @@
                                 "top": "Gammes de",
                                 "bottom": "Services"
                             },
-                            "subtitle": "Nous donnons aux entreprises les clés de leur croissance",
                             "view_all": "Voir toutes les de gammes de services"
                         },
                         "testimonies": {
@@ -784,7 +783,7 @@
                         "quote": {
                             "head": "Obtenir des solutions rapidement",
                             "title": {
-                                "left": "Faites nettoyer votre maison par nos experts."
+                                "left": "Faites-vous accompagner par nos experts."
                             },
                             "get": "Obtenir un devis",
                             "form": {
@@ -796,7 +795,7 @@
                                 "last_name": "Nom(s)",
                                 "email": "Adresse mail",
                                 "phone": "Numéro de téléphone",
-                                "company": "Entreprise",
+                                "location": "Localisation",
                                 "address": "Adresse",
                                 "message": "Précisez votre besoin, la période (date limite), votre emplacement et toute autre information nécessaire à la compréhension de la tâche"
                             }
@@ -848,9 +847,9 @@
                                 "bottom": "Hosamine SARL"
                             },
                             "photo": "\/images\/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
-                            "vision": "Notre <strong>vision</strong> est de rendre le conseil accessible à tous et sans délai",
-                            "values": "Nous mettons un point d'honneur à être, en toutes circonstances objectifs et honnêtes dans les résultats que nous délivrons. Nous sommes un cabinet guidé par des valeurs fortes:<ul><li><strong>Culte de l'excellence:</strong> Une équipe d'experts professionnels et dynamiques, orientés résultats</li><li><strong>Transparence:</strong> Clarté, sécurité</li><li><strong>Proximité client:</strong> Ecoute</li></ul>",
-                            "mission": "Notre <strong>mission</strong> est de faciliter, organiser et sécuriser à moindre coût et sans délai, la rencontre entre d'une part des professionnels en capacités et d'autre part des organisations en besoin d'accompagnement pour l'amélioration de leurs performances.",
+                            "vision": "Notre <strong>devise</strong> est: Ethique - Déontologie - Professionnalisme - Respect de l’environnement",
+                            "mission": "Nous mettons un point d'honneur à être, en toutes circonstances objectifs et honnêtes dans les résultats que nous délivrons. Nous sommes un cabinet guidé par des valeurs fortes:<ul><li><strong>Culte de l'excellence:</strong> Une équipe d'experts professionnels et dynamiques, orientés résultats</li><li><strong>Transparence:</strong> Clarté, sécurité</li><li><strong>Proximité client:</strong> Ecoute</li></ul>",
+                            "values": "Notre <strong>mission</strong> est d’agrandir le champ du possible par l’innovation dans le domaine de l’hygiène publique, de l’assainissement et du traitement phytosanitaire; faire la différence en offrant la possibilité aux professionnels autant qu’aux particuliers de disposer d’un environnement sain garant de bien être, de confort et de bonne qualité de vie.<br /><br />Evaluer les risques, appliquer les démarches sécurité, l’usage des Equipements de Protection Individuel (EPI) adaptés et des produits homologués, tout est mis en œuvre pour tendre vers un seul objectif : zéro accident lors de nos interventions.<br /><br />Nous respectons les procédures, les normes édictées en la matière ainsi que les délais contractuels.<br /><br />Nos interventions sont préventives ou curatives.",
                             "read_more": "En savoir plus"
                         },
                         "services": {
@@ -874,7 +873,7 @@
                                 "left": "Prenez",
                                 "right": "contact"
                             },
-                            "description": "Visitez notre agence ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
+                            "description": "Visitez notre structure ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
                             "centered": "true",
                             "name": "Nom",
                             "email": "Adresse mail",
@@ -920,7 +919,7 @@
                                 "left": "Prenez",
                                 "right": "contact"
                             },
-                            "description": "Visitez notre agence ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
+                            "description": "Visitez notre structure ou envoyez-nous simplement un e-mail quand vous le souhaitez. Si vous avez des questions, n'hésitez pas à nous contacter.",
                             "name": "Nom",
                             "email": "Adresse mail",
                             "message": "Message",
@@ -1619,22 +1618,22 @@
                     },
                     "offices": {
                         "title": "Offices",
-                        "value": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                        "value": "Douala, Deido, Total Bonateki"
                     },
                     "visit": {
                         "title": "Visit our pages",
                         "social_networks": [
                             {
                                 "icon": "facebook",
-                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                                "link": "https://www.facebook.com/Hosaminesarl/"
                             },
                             {
-                                "icon": "twitter",
-                                "link": "https://twitter.com/MaholConsulting"
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237696966555"
                             },
                             {
                                 "icon": "linkedin",
-                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
                             }
                         ]
                     },
@@ -1674,7 +1673,7 @@
                                 "top": "Contact"
                             },
                             "listen": "We are listening:",
-                            "address": "Douala, Bonapriso, behind Lycée Mongo Joseph",
+                            "address": "Douala, Deido, Total Bonateki",
                             "phone": "+237 671 626 262 | +237 655 551 111",
                             "hours": "8h - 17h, Monday to Saturday"
                         }
@@ -1684,15 +1683,15 @@
                         "social_networks": [
                             {
                                 "icon": "facebook-square",
-                                "link": "https://web.facebook.com/Mahol-Consulting-100595039307754"
+                                "link": "https://www.facebook.com/Hosaminesarl/"
                             },
                             {
                                 "icon": "linkedin",
-                                "link": "https://www.linkedin.com/company/mahol-consulting/"
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
                             },
                             {
-                                "icon": "twitter-square",
-                                "link": "https://twitter.com/MaholConsulting"
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237696966555"
                             }
                         ]
                     }
@@ -1705,57 +1704,57 @@
                             "services": "Our services",
                             "carousel": [
                                 {
-                                    "src": "\/images\/smiling-confident.jpg",
-                                    "head": "What are you missing?",
+                                    "src": "\/images\/mpi.jpg",
+                                    "head": "Who to deal with pests?",
                                     "title": {
-                                        "top": "Find that",
-                                        "bottom": "Missing piece"
+                                        "top": "The hygiene",
+                                        "bottom": "Expert"
                                     },
-                                    "description": "Hosamine SARL is a consulting firm located in Douala, Cameroon, specializing in organizational management and corporate financial engineering."
+                                    "description": "Hosamine SARL is a Cameroonian company, approved by the MINSANTE and the MINADER, whose core global business is innovation in the management of health."
                                 },
                                 {
-                                    "src": "\/images\/african-american-afro-american-analyzing-black-people-brainstorming-1434697-pxhere.com.jpg",
-                                    "head": "Committed to your success",
+                                    "src": "\/images\/home2.jpg",
+                                    "head": "A tailor-made service",
                                     "title": {
-                                        "top": "Delivering",
-                                        "bottom": "That promise"
+                                        "top": "Listening to",
+                                        "bottom": "Your needs"
                                     },
-                                    "description": "Facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for the improvement of their performances."
+                                    "description": "Hosamine SARL brings together a competent, dynamic team with in-depth knowledge of the business."
                                 },
                                 {
-                                    "src": "\/images\/confident-woman.jpg",
-                                    "head": "We want you to succeed",
+                                    "src": "\/images\/home21.jpg",
+                                    "head": "At your service for quality services",
                                     "title": {
-                                        "top": "Your success",
-                                        "bottom": "Our business"
+                                        "top": "Our quality",
+                                        "bottom": "Approach"
                                     },
-                                    "description": "Our vision is to make advice accessible to everyone and without delay."
+                                    "description": "Everything is done to work towards a single objective: zero accidents."
                                 }
                             ]
                         },
                         "blocks": {
                             "items": [
                                 {
-                                    "photo": "/images/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
+                                    "photo": "/images/serv211.jpg",
                                     "super": "A single watchword",
-                                    "title": "Excellence",
-                                    "description": "A team of professional and dynamic experts, results oriented.",
+                                    "title": "Discretion",
+                                    "description": "With the possibility of intervention in \"civilian\" and good protection.",
                                     "link": "/services",
                                     "button": "Our services"
                                 },
                                 {
-                                    "photo": "/images/african-african-american-amazing-awesome-bangkok-black-1567381-pxhere.com.jpg",
+                                    "photo": "/images/serv0.jpg",
                                     "super": "We guarantee you",
-                                    "title": "Transparency",
-                                    "description": "En plus de la clarté, nous vous garantissons une sécurité sans faille.",
+                                    "title": "Follow-up",
+                                    "description": "Processing and support in the preparation of administrative documents.",
                                     "link": "/about",
                                     "button": "About us"
                                 },
                                 {
-                                    "photo": "/images/image-right-creative3.jpg",
+                                    "photo": "/images/serv5.jpg",
                                     "super": "You are king",
-                                    "title": "Customer relationship",
-                                    "description": "We are always listening to our customers for their greatest satisfaction.",
+                                    "title": "Speed & Flexibility",
+                                    "description": "A rapid intervention with schedules adapted to your activity.",
                                     "link": "/contact",
                                     "button": "Contact us"
                                 }
@@ -1768,10 +1767,10 @@
                                 "bottom": "at your disposal"
                             },
                             "subtitle": "Who are we?",
-                            "photo": "\/images\/image-right9.png",
-                            "description": "Hosamine SARL is a consulting firm located in Douala, Cameroon, specializing in organizational management and corporate financial engineering.",
+                            "photo": "\/images\/home3.jpg",
+                            "description": "Hosamine SARL is a company located in Douala, Deido, Total Bonateki in Cameroon, specializing in hygiene, sanitation and phytosanitary treatment.",
                             "mission_title": "Our mission",
-                            "mission_description": "Facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for the improvement of their performances.",
+                            "mission_description": "Our team of professionals is approved by the Ministry of Health and MINADER. Innovation is at the heart of our global health management business. Our services relate to public hygiene, sanitation and phytosanitary treatment.",
                             "read_more": "Read more"
                         },
                         "services": {
@@ -1781,7 +1780,6 @@
                                 "top": "Service",
                                 "bottom": "lines"
                             },
-                            "subtitle": "We give companies the keys to their growth",
                             "view_all": "View all services"
                         },
                         "testimonies": {
@@ -1794,7 +1792,7 @@
                         "quote": {
                             "head": "Get solutions fast",
                             "title": {
-                                "left": "Searching for a First-Class Consultant?"
+                                "left": "Be accompanied by our experts."
                             },
                             "get": "Get a Quote",
                             "form": {
@@ -1806,7 +1804,7 @@
                                 "last_name": "Last name",
                                 "email": "E-mail address",
                                 "phone": "Phone number",
-                                "company": "Compamy",
+                                "location": "Location",
                                 "address": "Address",
                                 "message": "Specify your need, the period (deadline), your location and any other information necessary to understand the task"
                             }
@@ -1833,7 +1831,7 @@
                                 {
                                     "icon": "map-marked-alt",
                                     "title": "Address",
-                                    "description": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                                    "description": "Douala, Deido, Total Bonateki"
                                 },
                                 {
                                     "icon": "headset",
@@ -1858,9 +1856,9 @@
                                 "bottom": "Hosamine SARL"
                             },
                             "photo": "\/images\/achievement-african-african-american-bangkok-black-bridge-1567129-pxhere.com.jpg",
-                            "vision": "Our <strong>vision</strong> is to make advice accessible to everyone and without delay",
-                            "values": "We make it a point of honor to be, in all circumstances, objective and honest in the results we deliver. We are a firm guided by strong values:<ul><li><strong>Cult of excellence:</strong> A team of professional and dynamic experts, results-oriented</li><li><strong> Transparency:</strong> Clarity, security</li><li><strong>Client proximity:</strong> Listening</li></ul>",
-                            "mission": "Our <strong>mission</strong> is to facilitate, organize and secure at the lowest cost and without delay, the meeting between on the one hand professionals in capacity and on the other hand organizations in need of support for improvement. of their performance.",
+                            "vision": "Our <strong>motto</strong> is: Ethics - Deontology - Professionalism - Respect for the environment",
+                            "mission": "We make it a point of honor to be, in all circumstances, objective and honest in the results we deliver. We are a firm guided by strong values:<ul><li><strong>Cult of excellence:</strong> A team of professional and dynamic experts, results-oriented</li><li><strong> Transparency:</strong> Clarity, security</li><li><strong>Client proximity:</strong> Listening</li></ul>",
+                            "values": "Our <strong>mission</strong> is to enlarge the field of the possible through innovation in the field of public hygiene, sanitation and phytosanitary treatment; make a difference by offering the possibility to professionals as well as individuals to have a healthy environment guaranteeing well-being, comfort and a good quality of life.<br /><br />Evaluate the risks, apply the procedures safety, the use of appropriate Personal Protective Equipment (PPE) and approved products, everything is done to work towards a single objective: zero accidents during our interventions.<br /><br />We respect the procedures , the standards enacted in the matter as well as the contractual deadlines.<br /><br />Our interventions are preventive or curative.",
                             "read_more": "Read more"
                         },
                         "services": {
@@ -1884,7 +1882,7 @@
                                 "left": "Get in",
                                 "right": "touch"
                             },
-                            "description": "Visit our agency or just send us an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
+                            "description": "Visit us or just send an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
                             "centered": "true",
                             "name": "Name",
                             "email": "E-mail address",
@@ -1894,7 +1892,7 @@
                                 {
                                     "icon": "map-marked-alt",
                                     "title": "Address",
-                                    "description": "Douala, Bonapriso, behind Lycée Mongo Joseph"
+                                    "description": "Douala, Deido, Total Bonateki"
                                 },
                                 {
                                     "icon": "headset",
@@ -1930,7 +1928,7 @@
                                 "left": "Get in",
                                 "right": "touch"
                             },
-                            "description": "Visit our agency or just send us an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
+                            "description": "Visit us or just send an e-mail whenever you want. If you have any questions, do not hesitate to contact us.",
                             "name": "Name",
                             "email": "E-mail address",
                             "message": "Message",
@@ -1939,7 +1937,7 @@
                                 {
                                     "icon": "map-marked-alt",
                                     "title": "Address",
-                                    "description": "Douala, Bonapriso, behing Lycée Mongo Joseph"
+                                    "description": "Douala, Deido, Total Bonateki"
                                 },
                                 {
                                     "icon": "headset",
