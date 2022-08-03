@@ -637,7 +637,7 @@
                         "services": "Services",
                         "publications": "Actualités",
                         "contact": "Contact",
-                        "tel": "696 966 555"
+                        "tel": "677 550 011"
                     }
                 },
                 "footer": {
@@ -665,7 +665,7 @@
                             },
                             "listen": "Nous sommes à l'écoute:",
                             "address": "Douala, Deido, Total Bonateki",
-                            "phone": "+237 696 966 555 | +237 655 551 111",
+                            "phone": "+237 677 550 011 | +237 696 966 555",
                             "hours": "8h - 17h, Lundi à Samedi"
                         }
                     },
@@ -728,8 +728,8 @@
                                 {
                                     "photo": "/images/serv211.jpg",
                                     "super": "Un seul mot d'ordre",
-                                    "title": "Discrétion",
-                                    "description": "Avec la possibilité d'intervention en \"civil\" et une bonne protection.",
+                                    "title": "Satisfaction",
+                                    "description": "Passant par l’écoute du client et un diagnostic sur site.",
                                     "link": "/services",
                                     "button": "Nos services"
                                 },
@@ -768,10 +768,10 @@
                             "icon": "concierge-bell",
                             "head": "Comment vous aider",
                             "title": {
-                                "top": "Gammes de",
+                                "top": "Gamme de",
                                 "bottom": "Services"
                             },
-                            "view_all": "Voir toutes les de gammes de services"
+                            "view_all": "Voir toutes les services"
                         },
                         "testimonies": {
                             "head": "Des opinions sur nos services",
@@ -785,7 +785,7 @@
                             "title": {
                                 "left": "Faites-vous accompagner par nos experts."
                             },
-                            "get": "Obtenir un devis",
+                            "get": "Obtenir un devis gratuit",
                             "form": {
                                 "title": "Obtenir un devis",
                                 "subtitle": "Veuillez remplir le formulaire.",
@@ -827,7 +827,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Appelez-nous",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",
@@ -888,7 +888,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Appelez-nous",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",
@@ -933,7 +933,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Appelez-nous",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",
@@ -1643,7 +1643,7 @@
                         "services": "Services",
                         "publications": "News",
                         "contact": "Contact",
-                        "tel": "696 966 555"
+                        "tel": "677 550 011"
                     }
                 },
                 "footer": {
@@ -1674,7 +1674,7 @@
                             },
                             "listen": "We are listening:",
                             "address": "Douala, Deido, Total Bonateki",
-                            "phone": "+237 696 966 555 | +237 655 551 111",
+                            "phone": "+237 677 550 011 | +237 696 966 555",
                             "hours": "8h - 17h, Monday to Saturday"
                         }
                     },
@@ -1737,8 +1737,8 @@
                                 {
                                     "photo": "/images/serv211.jpg",
                                     "super": "A single watchword",
-                                    "title": "Discretion",
-                                    "description": "With the possibility of intervention in \"civilian\" and good protection.",
+                                    "title": "Satisfaction",
+                                    "description": "Through listening to the customer and an on-site diagnosis.",
                                     "link": "/services",
                                     "button": "Our services"
                                 },
@@ -1836,7 +1836,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Call us",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",
@@ -1897,7 +1897,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Call us",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",
@@ -1942,7 +1942,7 @@
                                 {
                                     "icon": "headset",
                                     "title": "Call us",
-                                    "description": "+237 696 966 555 | +237 655 551 111"
+                                    "description": "+237 677 550 011 | +237 696 966 555"
                                 },
                                 {
                                     "icon": "envelope",

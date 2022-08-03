@@ -31,7 +31,7 @@ export default {
             "services": "Services",
             "publications": "Actualités",
             "contact": "Contact",
-            "tel": "696 966 555"
+            "tel": "677 550 011"
         }
     },
     "footer": {
@@ -59,7 +59,7 @@ export default {
                 },
                 "listen": "Nous sommes à l'écoute:",
                 "address": "Douala, Deido, Total Bonateki",
-                "phone": "+237 696 966 555 | +237 655 551 111",
+                "phone": "+237 677 550 011 | +237 696 966 555",
                 "hours": "8h - 17h, Lundi à Samedi"
             }
         },
@@ -122,8 +122,8 @@ export default {
                     {
                         "photo": "/images/serv211.jpg",
                         "super": "Un seul mot d'ordre",
-                        "title": "Discrétion",
-                        "description": "Avec la possibilité d'intervention en \"civil\" et une bonne protection.",
+                        "title": "Satisfaction",
+                        "description": "Passant par l’écoute du client et un diagnostic sur site.",
                         "link": "/services",
                         "button": "Nos services"
                     },
@@ -162,10 +162,10 @@ export default {
                 "icon": "concierge-bell",
                 "head": "Comment vous aider",
                 "title": {
-                    "top": "Gammes de",
+                    "top": "Gamme de",
                     "bottom": "Services"
                 },
-                "view_all": "Voir toutes les de gammes de services"
+                "view_all": "Voir toutes les services"
             },
             "testimonies": {
                 "head": "Des opinions sur nos services",
@@ -179,7 +179,7 @@ export default {
                 "title": {
                     "left": "Faites-vous accompagner par nos experts."
                 },
-                "get": "Obtenir un devis",
+                "get": "Obtenir un devis gratuit",
                 "form": {
                     "title": "Obtenir un devis",
                     "subtitle": "Veuillez remplir le formulaire.",
@@ -221,7 +221,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 696 966 555 | +237 655 551 111"
+                        "description": "+237 677 550 011 | +237 696 966 555"
                     },
                     {
                         "icon": "envelope",
@@ -282,7 +282,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 696 966 555 | +237 655 551 111"
+                        "description": "+237 677 550 011 | +237 696 966 555"
                     },
                     {
                         "icon": "envelope",
@@ -327,7 +327,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 696 966 555 | +237 655 551 111"
+                        "description": "+237 677 550 011 | +237 696 966 555"
                     },
                     {
                         "icon": "envelope",
