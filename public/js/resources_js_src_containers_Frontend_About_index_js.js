@@ -726,33 +726,6 @@ var About = /*#__PURE__*/function (_Component) {
             })
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("section", {
-          className: "team",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
-            className: "container",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_Frontend_UI_Title_SectionTitle__WEBPACK_IMPORTED_MODULE_7__["default"], _objectSpread({}, cms.team)), team.length > 0 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)((react_owl_carousel2__WEBPACK_IMPORTED_MODULE_2___default()), {
-              ref: "team-carousel",
-              options: {
-                responsive: {
-                  0: {
-                    items: 1
-                  },
-                  600: {
-                    items: 2
-                  },
-                  900: {
-                    items: 3
-                  },
-                  1200: {
-                    items: 4
-                  }
-                },
-                dots: false,
-                margin: 20
-              },
-              children: teamContent
-            })]
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("section", {
           className: "services",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
             className: "container",

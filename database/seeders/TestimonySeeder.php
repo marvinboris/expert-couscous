@@ -18,82 +18,130 @@ class TestimonySeeder extends Seeder
             [
                 'name' => 'Charlie Harrison',
                 'company' => json_encode([
-                    'fr' => 'Banque HSBC',
-                    'en' => 'HSBC Bank',
+                    'fr' => 'Groupe Expert',
+                    'en' => 'Expert Group',
                 ]),
                 'title' => json_encode([
                     'fr' => 'Absolument parfait!',
                     'en' => 'Absolutely perfect!',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Visualisez en toute transparence un capital intellectuel de qualité sans collaboration supérieure ni partage d\'idées. Pontifier de manière holistique les portails de bases installées.',
-                    'en' => 'Seamlessly visualize quality intellectual capital without superior collaboration or idea sharing. Holistically pontificate installed base portals.',
+                    'fr' => 'Nos locaux ont été débarrassés de tous les nuisibles présents.',
+                    'en' => 'Our premises have been cleared of all pests present.',
                 ]),
-                'photo' => 'testimonial1.jpg'
+                'photo' => 'image1.png'
             ],
             [
                 'name' => 'Max Harvey',
                 'company' => json_encode([
-                    'fr' => 'Hôtel Berg',
-                    'en' => 'Hotel Berg',
+                    'fr' => 'Sygalyn TV Sat',
+                    'en' => 'Sygalyn TV Sat',
                 ]),
                 'title' => json_encode([
                     'fr' => 'La meilleure décision',
                     'en' => 'Best decision ever',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Déployez rapidement des réseaux stratégiques avec un e-business convaincant. Pontifier de manière crédible des produits manufacturés hautement efficaces et des données activées.',
-                    'en' => 'Rapidly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured goods and data enabled.',
+                    'fr' => 'Le personnel de notre entreprise s\'est brillamment formé à la gestion des nuisibles.',
+                    'en' => 'The personnel of our company are brilliantly trained in pest management.',
                 ]),
-                'photo' => 'testimonial5.jpg'
+                'photo' => 'image2.png'
             ],
             [
                 'name' => 'Kit Harington',
                 'company' => json_encode([
-                    'fr' => 'Startup Applauz',
-                    'en' => 'Applauz Startup',
+                    'fr' => 'Padre Pio Maternité et Hôpital Médical Inc',
+                    'en' => 'Padre Pio Maternity and Medial Hospital Inc',
                 ]),
                 'title' => json_encode([
                     'fr' => 'Ils ont sauvé mon entreprise',
                     'en' => 'Saved my business',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Ciblez dynamiquement un capital intellectuel à haut rendement pour des technologies personnalisées. Intégrer objectivement les communautés émergentes de compétences de base.',
-                    'en' => 'Dynamically target high-return intellectual capital for custom technologies. Objectively integrate emerging communities of core competencies.',
+                    'fr' => 'Efficace est l\'adjectif que nous pouvons utiliser pour qualifier leurs services. Notre hôpital est régulièrement désinfecté par leurs experts.',
+                    'en' => 'Efficient is the adjective we can use to qualify their services. Our hospital is regularly disinfected by their experts.',
                 ]),
-                'photo' => 'testimonial4.jpg'
+                'photo' => 'image3.jpg'
             ],
             [
                 'name' => 'Maria Marlin D',
                 'company' => json_encode([
-                    'fr' => 'Hôtel California',
-                    'en' => 'Hotel California',
+                    'fr' => 'Institut Supérieur de Technologie Médicale',
+                    'en' => 'Higher Institute of Medical Technology',
                 ]),
                 'title' => json_encode([
                     'fr' => 'Absolument parfait!',
                     'en' => 'Absolutely perfect!',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Visualisez en toute transparence un capital intellectuel de qualité sans collaboration supérieure ni partage d\'idées. Pontifier de manière holistique les portails de bases installées.',
-                    'en' => 'Seamlessly visualize quality intellectual capital without superior collaboration or idea sharing. Holistically pontificate installed base portals.',
+                    'fr' => 'Nous avons été conseillé, formé et accompagné par l\'équipe d\'Hosamine.',
+                    'en' => 'We have been advised, trained and supported by the Hosamine team.',
                 ]),
-                'photo' => 'testimonial3.jpg'
+                'photo' => 'image4.jpg'
             ],
             [
                 'name' => 'Alfie Allen',
                 'company' => json_encode([
-                    'fr' => 'Estato',
-                    'en' => 'Estato',
+                    'fr' => 'Port Autonome de Douala',
+                    'en' => 'Port Authority of Douala',
                 ]),
                 'title' => json_encode([
                     'fr' => 'La meilleure décision',
                     'en' => 'Best decision ever',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Déployez rapidement des réseaux stratégiques avec un e-business convaincant. Pontifier de manière crédible des produits manufacturés hautement efficaces et des données activées.',
-                    'en' => 'Rapidly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured goods and data enabled.',
+                    'fr' => 'Ils sont notre partenaire et prestataire pour les questions d\'hygiène et d\'assainissement.',
+                    'en' => 'They are our partner and service provider for hygiene and sanitation issues.',
                 ]),
-                'photo' => 'testimonial2.jpg'
+                'photo' => 'image5.png'
+            ],
+            [
+                'name' => 'Alfie Allen',
+                'company' => json_encode([
+                    'fr' => 'NOV',
+                    'en' => 'NOV',
+                ]),
+                'title' => json_encode([
+                    'fr' => 'La meilleure décision',
+                    'en' => 'Best decision ever',
+                ]),
+                'body' => json_encode([
+                    'fr' => 'Ils sont incontournables.',
+                    'en' => 'They are essential.',
+                ]),
+                'photo' => 'image6.png'
+            ],
+            [
+                'name' => 'Alfie Allen',
+                'company' => json_encode([
+                    'fr' => 'GTS Alarm',
+                    'en' => 'GTS Alarm',
+                ]),
+                'title' => json_encode([
+                    'fr' => 'La meilleure décision',
+                    'en' => 'Best decision ever',
+                ]),
+                'body' => json_encode([
+                    'fr' => 'Après leur intervention au sein de notre entreprise, un suivi personnalisé a été fait pour nous.',
+                    'en' => 'After their intervention within our company, a personalized follow-up was done for us.',
+                ]),
+                'photo' => 'image7.jpg'
+            ],
+            [
+                'name' => 'Alfie Allen',
+                'company' => json_encode([
+                    'fr' => 'Groupe AMS',
+                    'en' => 'AMS Group',
+                ]),
+                'title' => json_encode([
+                    'fr' => 'La meilleure décision',
+                    'en' => 'Best decision ever',
+                ]),
+                'body' => json_encode([
+                    'fr' => 'Nous avons sollicité Hosamine car ils sont des prestataires de choix pour les questions de traitement phytosanitaire.',
+                    'en' => 'We contacted Hosamine because they are the service providers of choice for questions of phytosanitary treatment.',
+                ]),
+                'photo' => 'image8.png'
             ],
         ];
 

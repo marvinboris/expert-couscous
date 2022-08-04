@@ -1,7 +1,7 @@
 export default {
     "header": {
         "opened": {
-            "days": "Lundi - Vendredi",
+            "days": "Lundi - Samedi",
             "hours": "8h - 17h"
         },
         "offices": {

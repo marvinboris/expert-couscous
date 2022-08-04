@@ -529,7 +529,7 @@ var Contact = /*#__PURE__*/function (_Component) {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {
                 className: "col-lg-6",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("iframe", {
-                  src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15919.909280908641!2d9.7019373!3d4.0250381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe28d53dbf8cebb4d!2sMAHOL%20CONSULTING!5e0!3m2!1sfr!2scm!4v1656832382871!5m2!1sfr!2scm",
+                  src: "https://maps.google.com/maps?q=4.079299%2C%209.718764&t=m&z=16&output=embed&iwloc=near",
                   style: {
                     border: 0
                   },

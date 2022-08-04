@@ -46,13 +46,13 @@ __webpack_require__.r(__webpack_exports__);
           className: "subtitle",
           children: subtitle
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-          className: "blue-line"
+          className: "green-line"
         })]
       }), list && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
         to: link,
         className: "link",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("button", {
-          className: "btn btn-blue",
+          className: "btn btn-green",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
             children: list
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
@@ -228,7 +228,7 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
     className: "UI PageTitle",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "blue-line"
+      className: "green-line"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "icon",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
@@ -2024,7 +2024,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Form {\n  border-radius: var(--border-radius);\n  padding: 16px 16px 48px 16px;\n  background-color: var(--white);\n}\n.UI.Form .header {\n  display: flex;\n  align-items: center;\n  margin-bottom: 16px;\n  justify-content: space-between;\n}\n.UI.Form .header .title {\n  font-size: 16px;\n  font-weight: 700;\n}\n.UI.Form .header .subtitle {\n  font-size: 12px;\n  margin-bottom: 15px;\n}\n.UI.Form .header .blue-line {\n  width: 33px;\n  height: 7px;\n  border-radius: 5px;\n  background-color: var(--blue);\n}\n.UI.Form .header .link i {\n  margin-left: 0;\n}\n.UI.Form .header .link span {\n  display: none;\n}\n\n@media (min-width: 800px) {\n  .UI.Form {\n    padding: 26px 33px 62px 33px;\n  }\n  .UI.Form .header {\n    margin-bottom: 40px;\n  }\n  .UI.Form .header .title {\n    font-size: 20px;\n  }\n  .UI.Form .header .subtitle {\n    font-size: 12px;\n    margin-bottom: 15px;\n  }\n  .UI.Form .header .link i {\n    margin-left: 10px;\n  }\n  .UI.Form .header .link span {\n    display: inline;\n  }\n}\n@media (min-width: 1280px) {\n  .UI.Form {\n    padding: 36px 51px 75px 51px;\n  }\n  .UI.Form .header {\n    margin-bottom: 64px;\n  }\n  .UI.Form .header .subtitle {\n    font-size: 12px;\n    margin-bottom: 15px;\n  }\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Form {\n  border-radius: var(--border-radius);\n  padding: 16px 16px 48px 16px;\n  background-color: var(--white);\n}\n.UI.Form .header {\n  display: flex;\n  align-items: center;\n  margin-bottom: 16px;\n  justify-content: space-between;\n}\n.UI.Form .header .title {\n  font-size: 16px;\n  font-weight: 700;\n}\n.UI.Form .header .subtitle {\n  font-size: 12px;\n  margin-bottom: 15px;\n}\n.UI.Form .header .green-line {\n  width: 33px;\n  height: 7px;\n  border-radius: 5px;\n  background-color: var(--green);\n}\n.UI.Form .header .link i {\n  margin-left: 0;\n}\n.UI.Form .header .link span {\n  display: none;\n}\n\n@media (min-width: 800px) {\n  .UI.Form {\n    padding: 26px 33px 62px 33px;\n  }\n  .UI.Form .header {\n    margin-bottom: 40px;\n  }\n  .UI.Form .header .title {\n    font-size: 20px;\n  }\n  .UI.Form .header .subtitle {\n    font-size: 12px;\n    margin-bottom: 15px;\n  }\n  .UI.Form .header .link i {\n    margin-left: 10px;\n  }\n  .UI.Form .header .link span {\n    display: inline;\n  }\n}\n@media (min-width: 1280px) {\n  .UI.Form {\n    padding: 36px 51px 75px 51px;\n  }\n  .UI.Form .header {\n    margin-bottom: 64px;\n  }\n  .UI.Form .header .subtitle {\n    font-size: 12px;\n    margin-bottom: 15px;\n  }\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2047,7 +2047,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.PageTitle {\n  top: 60.97px;\n  height: 61px;\n  display: flex;\n  z-index: 1000;\n  position: -webkit-sticky;\n  position: sticky;\n  padding-left: 16px;\n  align-items: center;\n  background-color: var(--white);\n}\n.UI.PageTitle::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n  background-color: var(--blue-10);\n}\n.UI.PageTitle .blue-line {\n  position: absolute;\n  width: 9px;\n  height: 100%;\n  left: 0;\n  top: 0;\n  background-color: var(--blue);\n}\n.UI.PageTitle .icon {\n  padding-right: 16px;\n  font-size: 27px;\n  color: var(--blue);\n}\n.UI.PageTitle .title {\n  font-size: 16px;\n  font-weight: 500;\n}\n\n@media (min-width: 800px) {\n  .UI.PageTitle {\n    top: 78.47px;\n    height: 71px;\n    padding-left: 41px;\n  }\n  .UI.PageTitle .blue-line {\n    width: 9px;\n  }\n  .UI.PageTitle .icon {\n    padding-right: 20px;\n    font-size: 30px;\n  }\n  .UI.PageTitle .title {\n    font-size: 16px;\n    margin-bottom: 5px;\n  }\n}\n@media (min-width: 1280px) {\n  .UI.PageTitle {\n    top: 78.47px;\n    height: 81px;\n    padding-left: 66px;\n  }\n  .UI.PageTitle .blue-line {\n    width: 9px;\n  }\n  .UI.PageTitle .icon {\n    padding-right: 23px;\n    font-size: 33px;\n  }\n  .UI.PageTitle .title {\n    font-size: 16px;\n    margin-bottom: 10px;\n  }\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.PageTitle {\n  top: 60.97px;\n  height: 61px;\n  display: flex;\n  z-index: 1000;\n  position: -webkit-sticky;\n  position: sticky;\n  padding-left: 16px;\n  align-items: center;\n  background-color: var(--white);\n}\n.UI.PageTitle::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n  background-color: var(--green-10);\n}\n.UI.PageTitle .green-line {\n  position: absolute;\n  width: 9px;\n  height: 100%;\n  left: 0;\n  top: 0;\n  background-color: var(--green);\n}\n.UI.PageTitle .icon {\n  padding-right: 16px;\n  font-size: 27px;\n  color: var(--green);\n}\n.UI.PageTitle .title {\n  font-size: 16px;\n  font-weight: 500;\n}\n\n@media (min-width: 800px) {\n  .UI.PageTitle {\n    top: 78.47px;\n    height: 71px;\n    padding-left: 41px;\n  }\n  .UI.PageTitle .green-line {\n    width: 9px;\n  }\n  .UI.PageTitle .icon {\n    padding-right: 20px;\n    font-size: 30px;\n  }\n  .UI.PageTitle .title {\n    font-size: 16px;\n    margin-bottom: 5px;\n  }\n}\n@media (min-width: 1280px) {\n  .UI.PageTitle {\n    top: 78.47px;\n    height: 81px;\n    padding-left: 66px;\n  }\n  .UI.PageTitle .green-line {\n    width: 9px;\n  }\n  .UI.PageTitle .icon {\n    padding-right: 23px;\n    font-size: 33px;\n  }\n  .UI.PageTitle .title {\n    font-size: 16px;\n    margin-bottom: 10px;\n  }\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

@@ -38,13 +38,13 @@ const TestimonyBlock = ({ title, body, name, company, photo }) => <div className
         </div>
 
         <div className='text'>
-            <div className='name'>{name}</div>
+            {/* <div className='name'>{name}</div> */}
 
             <div className='company'>{company}</div>
         </div>
     </div>
 
-    <div className='title'>{title}</div>
+    {/* <div className='title'>{title}</div> */}
 
     <div className='body'>{body}</div>
 </div>;

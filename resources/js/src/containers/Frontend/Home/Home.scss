@@ -222,17 +222,24 @@
             }
 
             .TestimonyBlock {
+                padding-right: 1rem;
+
                 .head {
                     display: flex;
                     align-items: center;
                     margin-bottom: 20px;
 
                     .img {
+                        padding: 1rem;
+                        border-radius: 50%;
+                        background-color: var(--white);
+
                         div {
                             width: 100px;
                             height: 100px;
                             border-radius: 50%;
                             transition: all .25s;
+                            background-size: contain;
                         }
                     }
 
@@ -249,7 +256,7 @@
                         .company {
                             font-size: 20px;
                             font-weight: 800;
-                            color: var(--white);
+                            color: var(--orange);
                         }
                     }
                 }
