@@ -17,6 +17,8 @@ const initialState = {
     title: {},
     body: {},
     icon: '',
+    photos: [],
+    is_active: '1',
 
     translate: process.env.MIX_DEFAULT_LANG,
 
@@ -29,7 +31,18 @@ class Add extends Component {
     // Component methods
     resetState = () => this.setState({ ...initialState, title: {}, body: {} })
     saveAddHandler = () => utility.add.component.saveAddHandler(this.setState.bind(this), this.props)
-    inputChangeHandler = e => utility.add.component.inputChangeHandler(this.state, this.setState.bind(this))(e)
+    inputChangeHandler = e => {
+        const { name, value, files } = e.target;
+        if (name === 'photos[]') this.setState({ photos: files });
+        else if (name.includes('[')) {
+            const { translate } = state;
+            const stateName = name.split('[')[0];
+            const element = state[stateName];
+            element[translate] = value;
+            return setState({ [stateName]: element });
+        }
+        this.setState({ [name]: value });
+    }
     fileUpload = id => utility.add.component.fileUpload(id)
 
     // Lifecycle methods
@@ -40,12 +53,12 @@ class Add extends Component {
         const {
             content: {
                 cms: {
-                    pages: { backend: { pages: { services: { form } } } }
+                    pages: { components: { form: { active, inactive } }, backend: { pages: { services: { form } } } }
                 }, languages
             },
             backend: { services: { loading, service = {} } },
         } = this.props;
-        const { title, body, icon, translate } = this.state;
+        const { title, body, icon, is_active, photos, translate } = this.state;
         let content;
 
         const languagesOptions = languages.map(language => <option key={JSON.stringify(language)} value={language.abbr}>{language.name}</option>);
@@ -82,7 +95,19 @@ class Add extends Component {
                 <div className="col-lg-9">
                     <div className='row'>
                         <Input type='text' className='col-md-6' name='icon' icon={icon} label={form.icon} onChange={this.inputChangeHandler} value={icon} required />
+                        <div className='form-group col-md-6'>
+                            <label for="photos" className='text-500'>{form.photos}{' '}{photos.length > 0 && <>({photos.length} <i className='fas fa-check-circle text-green' />)</>}</label><br />
+                            <label for="photos" className='btn btn-green'>{form.select_photos}...<i className='fas fa-upload' /></label>
+                        </div>
                     </div>
+                </div>
+
+                <div className="col-lg-3">
+                    <Input type="select" label={form.is_active} onChange={this.inputChangeHandler} value={is_active} name="is_active" required>
+                        <option>{form.select_status}</option>
+                        <option value={1}>{active}</option>
+                        <option value={0}>{inactive}</option>
+                    </Input>
                 </div>
             </div>
 
@@ -90,6 +115,7 @@ class Add extends Component {
         </>;
 
         return <utility.add.lifecycle.render className='Services' props={this.props} resource={'services'}>
+            <input type="file" id="photos" name="photos[]" className="d-none" onChange={this.inputChangeHandler} accept=".png,.jpg,.jpeg" multiple />
             {content}
         </utility.add.lifecycle.render>;
     }

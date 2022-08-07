@@ -18,6 +18,7 @@ class CreateServicesTable extends Migration
             $table->text('title');
             $table->longText('body');
             $table->string('icon');
+            $table->text('photos')->nullable();
             $table->string('slug');
             $table->tinyInteger('is_active')->default(1);
             $table->timestamps();

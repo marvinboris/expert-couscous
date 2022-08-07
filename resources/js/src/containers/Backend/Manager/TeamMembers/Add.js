@@ -44,7 +44,7 @@ class Add extends Component {
             },
             backend: { team_members: { loading, team_member = {} } },
         } = this.props;
-        const { name, job, is_active, translate } = this.state;
+        const { name, job, photo, is_active, translate } = this.state;
         let content;
 
         const languagesOptions = languages.map(language => <option key={JSON.stringify(language)} value={language.abbr}>{language.name}</option>);

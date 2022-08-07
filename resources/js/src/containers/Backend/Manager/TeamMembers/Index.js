@@ -38,6 +38,7 @@ class Index extends Component {
         return <utility.index.lifecycle.render className='TeamMembers' props={this.props} resource='team_members' data={data} fields={[
             { name: form.name, key: 'name' },
             { name: form.job, key: 'job' },
+            { name: form.photo, key: 'photo' },
             { name: form.is_active, key: 'is_active' },
             { name: action, key: 'action', fixed: true }
         ]} />;

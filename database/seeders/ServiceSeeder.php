@@ -25,6 +25,7 @@ class ServiceSeeder extends Seeder
                     'en' => 'It is a set of integrated measures to reduce or eliminate an infestation of pests (rodents, insects, reptiles, birds and mites) dear to individuals or businesses. We offer a range of integrated solutions for effective control (awareness/training, access limitation and various other means of control).<br /><br /><strong>Services</strong>: Awareness and training, disinsectization, deratization, deserpentilization',
                 ]),
                 'icon' => 'bacteria',
+                // 'photos' => json_encode(['', '', '']),
             ],
             [
                 'title' => json_encode([

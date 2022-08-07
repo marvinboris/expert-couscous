@@ -10,12 +10,13 @@ import ServiceBlock from '../../../components/Frontend/UI/Blocks/ServiceBlock';
 import PublicationBlock from '../../../components/Frontend/UI/Blocks/PublicationBlock';
 import TeamMemberBlock from '../../../components/Frontend/UI/Blocks/TeamMemberBlock';
 
+import View from '../../../components/Backend/UI/List/Photo/View';
+
 import OwlCarousel from '../../../components/UI/OwlCarousel';
 
 import { getHome, postNewsletter, postSubscribe, resetHome } from '../../../store/actions/frontend/home';
 
 import './Home.scss';
-import View from '../../../components/Backend/UI/List/Photo/View';
 
 const BlocksBlock = ({ cms }) => <div className='BlocksBlock'>
     <div className='bg-img shadow' style={{ backgroundImage: `linear-gradient(30deg, rgba(255,255,255,.8) 50%, transparent), url("${cms.photo}")` }}>
@@ -107,7 +108,7 @@ class Home extends Component {
         const testimoniesContent = testimonies.map(testimony => <TestimonyBlock key={JSON.stringify(testimony)} {...{ ...testimony, company: testimony.company[lang], title: testimony.title[lang], body: testimony.body[lang] }} />);
         const publicationsContent = publications.map(publication => <PublicationBlock key={JSON.stringify(publication)} {...publication} />);
         const partnersContent = partners.map(partner => <div key={JSON.stringify(partner)}><img src={partner.photo} alt={partner.name} /></div>);
-        const teamContent = team.map(member => <TeamMemberBlock key={JSON.stringify(member)} {...{ ...member, job: member.job[lang] }} />);
+        // const teamContent = team.map(member => <TeamMemberBlock key={JSON.stringify(member)} {...{ ...member, job: member.job[lang] }} />);
 
         return <div className="Home">
             <div className='banner'>

@@ -1433,6 +1433,8 @@ var initialState = {
   title: {},
   body: {},
   icon: '',
+  photos: [],
+  is_active: '1',
   translate: "fr",
   add: false
 };
@@ -1467,7 +1469,22 @@ var Add = /*#__PURE__*/function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_this), "inputChangeHandler", function (e) {
-      return _utility__WEBPACK_IMPORTED_MODULE_7__.add.component.inputChangeHandler(_this.state, _this.setState.bind(_assertThisInitialized(_this)))(e);
+      var _e$target = e.target,
+          name = _e$target.name,
+          value = _e$target.value,
+          files = _e$target.files;
+      if (name === 'photos[]') _this.setState({
+        photos: files
+      });else if (name.includes('[')) {
+        var _state = state,
+            translate = _state.translate;
+        var stateName = name.split('[')[0];
+        var element = state[stateName];
+        element[translate] = value;
+        return setState(_defineProperty({}, stateName, element));
+      }
+
+      _this.setState(_defineProperty({}, name, value));
     });
 
     _defineProperty(_assertThisInitialized(_this), "fileUpload", function (id) {
@@ -1500,7 +1517,11 @@ var Add = /*#__PURE__*/function (_Component) {
 
       var _this$props = this.props,
           _this$props$content = _this$props.content,
-          form = _this$props$content.cms.pages.backend.pages.services.form,
+          _this$props$content$c = _this$props$content.cms.pages,
+          _this$props$content$c2 = _this$props$content$c.components.form,
+          active = _this$props$content$c2.active,
+          inactive = _this$props$content$c2.inactive,
+          form = _this$props$content$c.backend.pages.services.form,
           languages = _this$props$content.languages,
           _this$props$backend$s = _this$props.backend.services,
           loading = _this$props$backend$s.loading,
@@ -1510,6 +1531,8 @@ var Add = /*#__PURE__*/function (_Component) {
           title = _this$state.title,
           body = _this$state.body,
           icon = _this$state.icon,
+          is_active = _this$state.is_active,
+          photos = _this$state.photos,
           translate = _this$state.translate;
       var content;
       var languagesOptions = languages.map(function (language) {
@@ -1573,9 +1596,9 @@ var Add = /*#__PURE__*/function (_Component) {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {})
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
             className: "col-lg-9",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
               className: "row",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {
                 type: "text",
                 className: "col-md-6",
                 name: "icon",
@@ -1584,7 +1607,43 @@ var Add = /*#__PURE__*/function (_Component) {
                 onChange: this.inputChangeHandler,
                 value: icon,
                 required: true
-              })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+                className: "form-group col-md-6",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("label", {
+                  "for": "photos",
+                  className: "text-500",
+                  children: [form.photos, ' ', photos.length > 0 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.Fragment, {
+                    children: ["(", photos.length, " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                      className: "fas fa-check-circle text-green"
+                    }), ")"]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("label", {
+                  "for": "photos",
+                  className: "btn btn-green",
+                  children: [form.select_photos, "...", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
+                    className: "fas fa-upload"
+                  })]
+                })]
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+            className: "col-lg-3",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              type: "select",
+              label: form.is_active,
+              onChange: this.inputChangeHandler,
+              value: is_active,
+              name: "is_active",
+              required: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("option", {
+                children: form.select_status
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("option", {
+                value: 1,
+                children: active
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("option", {
+                value: 0,
+                children: inactive
+              })]
             })
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Backend_UI_Form_Save__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1592,11 +1651,19 @@ var Add = /*#__PURE__*/function (_Component) {
           saveAddHandler: this.saveAddHandler
         })]
       });
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_utility__WEBPACK_IMPORTED_MODULE_7__.add.lifecycle.render, {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(_utility__WEBPACK_IMPORTED_MODULE_7__.add.lifecycle.render, {
         className: "Services",
         props: this.props,
         resource: 'services',
-        children: content
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("input", {
+          type: "file",
+          id: "photos",
+          name: "photos[]",
+          className: "d-none",
+          onChange: this.inputChangeHandler,
+          accept: ".png,.jpg,.jpeg",
+          multiple: true
+        }), content]
       });
     }
   }]);
@@ -5113,7 +5180,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".UI.Input {\n  position: relative;\n}\n.UI.Input ::-moz-placeholder {\n  color: var(--border-50);\n  opacity: 1;\n}\n.UI.Input ::placeholder {\n  color: var(--border-50);\n  opacity: 1;\n}\n.UI.Input label:not(.control-label) {\n  position: absolute;\n  left: 75px;\n  top: 0.75rem;\n  z-index: 1;\n  max-width: calc(100% - 76px - 0.75rem);\n}\n.UI.Input .form-control[required] + label:not(.control-label)::after {\n  content: \"*\";\n  color: red;\n}\n.UI.Input .form-control[readonly] + label:not(.control-label),\n.UI.Input .form-control[disabled] + label:not(.control-label),\n.UI.Input .form-control[required]:valid + label:not(.control-label),\n.UI.Input input:not([value=\"\"]) + label:not(.control-label),\n.UI.Input textarea:not(:invalid) + label:not(.control-label) {\n  display: none;\n}\n.UI.Input .input-group {\n  border: none;\n  display: flex;\n  overflow: hidden;\n  border-radius: var(--border-radius);\n  align-items: center;\n  background-color: var(--white);\n  box-shadow: 0 0 0 1px var(--border-10);\n}\n.UI.Input .input-group-prepend {\n  z-index: 10;\n  height: 45px;\n  position: relative;\n}\n.UI.Input .input-group-prepend .input-group-text {\n  width: 57px;\n  border: none;\n  display: block;\n  padding: 3px 18px;\n  position: relative;\n  color: var(--border-30);\n  background-color: transparent;\n}\n.UI.Input .input-group-prepend .input-group-text .icon {\n  top: 50%;\n  left: 50%;\n  margin: 0 3px;\n  position: absolute;\n  color: var(--blue);\n  transform: translate(-50%, -50%);\n}\n.UI.Input .input-group-prepend .input-group-text .addon {\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  position: absolute;\n  align-items: center;\n  justify-content: center;\n}\n.UI.Input .input-group-prepend .input-group-text .circle {\n  top: 50%;\n  left: 100%;\n  width: 10px;\n  height: 10px;\n  overflow: hidden;\n  position: absolute;\n  border-radius: 50%;\n  background-color: var(--white);\n  transform: translate(-50%, calc(-50% - 2px));\n}\n.UI.Input .input-group-prepend .input-group-text .circle::after {\n  top: 0;\n  left: 0;\n  content: \"\";\n  width: 100%;\n  z-index: -1;\n  height: 100%;\n  position: absolute;\n  background-color: var(--border-10);\n}\n.UI.Input .form-control,\n.UI.Input select {\n  border: none;\n  height: 45px;\n  color: inherit;\n  box-shadow: none;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.UI.Input textarea {\n  min-height: 112px;\n}\n.UI.Input .embed-responsive {\n  display: flex;\n  cursor: pointer;\n  overflow: visible;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--border-10);\n  border-radius: var(--border-radius);\n  box-shadow: 0 0 0 1px var(--border-10);\n}\n.UI.Input .embed-responsive .image-selected {\n  width: 100%;\n  text-align: center;\n  color: var(--green);\n}\n.UI.Input .embed-responsive .image-selected .check-circle {\n  top: 0;\n  right: 0;\n  position: absolute;\n  transform: translate(50%, -50%);\n}\n.UI.Input .embed-responsive .image-selected .file-selected {\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px 15px;\n  position: absolute;\n  color: var(--white);\n  background-color: var(--black-70);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n}\n.UI.Input .embed-responsive .select-image {\n  width: 100%;\n  padding: 0 16px;\n  overflow: hidden;\n  text-align: center;\n  color: var(--border-50);\n}\n.UI.Input .embed-responsive .select-image .upload {\n  margin-top: 16px;\n  margin-bottom: 4px;\n  text-align: center;\n}\n.UI.Input .control-label {\n  font-weight: 500;\n}\n.UI.Input .input-group-append .input-group-text {\n  border: none;\n  padding: 0 24px;\n  color: var(--border);\n  background-color: transparent;\n}\n.UI.Input.lg .input-group {\n  border-radius: calc(var(--border-radius) * 2);\n}\n.UI.Input.lg .input-group-prepend {\n  height: 82px;\n}\n.UI.Input.lg .input-group-prepend .input-group-text {\n  padding-left: 39px;\n  padding-right: 28px;\n}\n.UI.Input.lg .form-control,\n.UI.Input.lg select {\n  height: 82px;\n  font-size: 18px;\n  padding-left: 40px;\n  padding-right: 40px;\n}\n.UI.Input.inactive .input-group-prepend .input-group-text .addon {\n  background-color: var(--readonly);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".UI.Input {\n  position: relative;\n}\n.UI.Input ::-moz-placeholder {\n  color: var(--border-50);\n  opacity: 1;\n}\n.UI.Input ::placeholder {\n  color: var(--border-50);\n  opacity: 1;\n}\n.UI.Input label:not(.control-label) {\n  position: absolute;\n  left: 75px;\n  top: 0.75rem;\n  z-index: 1;\n  max-width: calc(100% - 76px - 0.75rem);\n}\n.UI.Input .form-control[required] + label:not(.control-label)::after {\n  content: \"*\";\n  color: red;\n}\n.UI.Input .form-control[readonly] + label:not(.control-label),\n.UI.Input .form-control[disabled] + label:not(.control-label),\n.UI.Input .form-control[required]:valid + label:not(.control-label),\n.UI.Input input:not([value=\"\"]) + label:not(.control-label),\n.UI.Input textarea:not(:invalid) + label:not(.control-label) {\n  display: none;\n}\n.UI.Input .input-group {\n  border: none;\n  display: flex;\n  overflow: hidden;\n  border-radius: var(--border-radius);\n  align-items: center;\n  background-color: var(--white);\n  box-shadow: 0 0 0 1px var(--border-10);\n}\n.UI.Input .input-group-prepend {\n  z-index: 10;\n  height: 45px;\n  position: relative;\n}\n.UI.Input .input-group-prepend .input-group-text {\n  width: 57px;\n  border: none;\n  display: block;\n  padding: 3px 18px;\n  position: relative;\n  color: var(--border-30);\n  background-color: transparent;\n}\n.UI.Input .input-group-prepend .input-group-text .icon {\n  top: 50%;\n  left: 50%;\n  margin: 0 3px;\n  position: absolute;\n  color: var(--green);\n  transform: translate(-50%, -50%);\n}\n.UI.Input .input-group-prepend .input-group-text .addon {\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  position: absolute;\n  align-items: center;\n  justify-content: center;\n}\n.UI.Input .input-group-prepend .input-group-text .circle {\n  top: 50%;\n  left: 100%;\n  width: 10px;\n  height: 10px;\n  overflow: hidden;\n  position: absolute;\n  border-radius: 50%;\n  background-color: var(--white);\n  transform: translate(-50%, calc(-50% - 2px));\n}\n.UI.Input .input-group-prepend .input-group-text .circle::after {\n  top: 0;\n  left: 0;\n  content: \"\";\n  width: 100%;\n  z-index: -1;\n  height: 100%;\n  position: absolute;\n  background-color: var(--border-10);\n}\n.UI.Input .form-control,\n.UI.Input select {\n  border: none;\n  height: 45px;\n  color: inherit;\n  box-shadow: none;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.UI.Input textarea {\n  min-height: 112px;\n}\n.UI.Input .embed-responsive {\n  display: flex;\n  cursor: pointer;\n  overflow: visible;\n  position: relative;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--border-10);\n  border-radius: var(--border-radius);\n  box-shadow: 0 0 0 1px var(--border-10);\n}\n.UI.Input .embed-responsive .image-selected {\n  width: 100%;\n  text-align: center;\n  color: var(--green);\n}\n.UI.Input .embed-responsive .image-selected .check-circle {\n  top: 0;\n  right: 0;\n  position: absolute;\n  transform: translate(50%, -50%);\n}\n.UI.Input .embed-responsive .image-selected .file-selected {\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px 15px;\n  position: absolute;\n  color: var(--white);\n  background-color: var(--black-70);\n  border-bottom-left-radius: var(--border-radius);\n  border-bottom-right-radius: var(--border-radius);\n}\n.UI.Input .embed-responsive .select-image {\n  width: 100%;\n  padding: 0 16px;\n  overflow: hidden;\n  text-align: center;\n  color: var(--border-50);\n}\n.UI.Input .embed-responsive .select-image .upload {\n  margin-top: 16px;\n  margin-bottom: 4px;\n  text-align: center;\n}\n.UI.Input .control-label {\n  font-weight: 500;\n}\n.UI.Input .input-group-append .input-group-text {\n  border: none;\n  padding: 0 24px;\n  color: var(--border);\n  background-color: transparent;\n}\n.UI.Input.lg .input-group {\n  border-radius: calc(var(--border-radius) * 2);\n}\n.UI.Input.lg .input-group-prepend {\n  height: 82px;\n}\n.UI.Input.lg .input-group-prepend .input-group-text {\n  padding-left: 39px;\n  padding-right: 28px;\n}\n.UI.Input.lg .form-control,\n.UI.Input.lg select {\n  height: 82px;\n  font-size: 18px;\n  padding-left: 40px;\n  padding-right: 40px;\n}\n.UI.Input.inactive .input-group-prepend .input-group-text .addon {\n  background-color: var(--readonly);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

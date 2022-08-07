@@ -17,6 +17,7 @@ class ServiceController extends Controller
         'body' => 'array|required',
         'icon' => 'required|string',
         'is_active' => 'required|integer',
+        'photos.*' => 'required|image',
     ];
 
 
@@ -109,11 +110,18 @@ class ServiceController extends Controller
 
         $request->validate($this->rules);
 
-        $input = $request->except(['title', 'body']);
+        $input = $request->except(['title', 'body', 'photos']);
+
+        $photos = [];
+        foreach ($request->photos as $photo) {
+            $fileName = UtilController::resize($photo, 'services');
+            $photos[] = htmlspecialchars($fileName);
+        }
 
         Service::create($input + [
             'title' => json_encode($request->title),
             'body' => json_encode($request->body),
+            'photos' => json_encode($photos),
         ]);
 
         return response()->json([
@@ -134,11 +142,22 @@ class ServiceController extends Controller
         $rules = $this->rules;
         $request->validate($rules);
 
-        $input = $request->except(['title', 'body']);
+        $input = $request->except(['title', 'body', 'photos']);
+
+        $photos = [];
+        foreach ($request->photos as $photo) {
+            $fileName = UtilController::resize($photo, 'services');
+            $photos[] = htmlspecialchars($fileName);
+        }
+
+        foreach ($service->photos as $service_photo) {
+            if ($service_photo && is_file(public_path($service_photo))) unlink(public_path($service_photo));
+        }
 
         $service->update($input + [
             'title' => json_encode($request->title),
             'body' => json_encode($request->body),
+            'photos' => json_encode($photos),
         ]);
 
         return response()->json([

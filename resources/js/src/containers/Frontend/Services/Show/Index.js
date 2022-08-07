@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
 import PageTitle from '../../../../components/Frontend/UI/Title/PageTitle';
+import OwlCarousel from '../../../../components/UI/OwlCarousel';
 
 import { getService, resetServices } from '../../../../store/actions/frontend/services';
 
@@ -32,13 +33,17 @@ class Services extends Component {
             <PageTitle title={cms.title} subtitle={cms.loading} />
         </>;
         else if (service) {
-            const { title, body, icon } = service;
+            const { title, body, photos, icon } = service;
+
+            const photosContent = photos.map(photo => <div className="embed-responsive embed-responsive-16by9 bg-img" style={{ backgroundImage: `url("${photo}")` }} />);
 
             content = <>
                 <PageTitle title={cms.title} subtitle={title[lang]} />
 
                 <section className='service'>
                     <div className='container'>
+                        {photos.length > 0 && <OwlCarousel ref="photos-carousel" options={{ responsive: { 0: { items: 1 } }, dots: false, loop: true, autoplay: true }}>{photosContent}</OwlCarousel>}
+
                         <div className="title">{title[lang]}</div>
 
                         <div className='content' dangerouslySetInnerHTML={{ __html: body[lang] }} />

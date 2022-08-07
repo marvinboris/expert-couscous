@@ -8371,6 +8371,9 @@ var Index = /*#__PURE__*/function (_Component) {
           name: form.job,
           key: 'job'
         }, {
+          name: form.photo,
+          key: 'photo'
+        }, {
           name: form.is_active,
           key: 'is_active'
         }, {

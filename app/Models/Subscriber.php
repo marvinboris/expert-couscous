@@ -11,6 +11,6 @@ class Subscriber extends Model
     use HasFactory, Notifiable;
 
     public $fillable = [
-        'name', 'email',
+        'name', 'email', 'is_active',
     ];
 }

@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 // Components
 import Action from '../../../../components/Backend/UI/List/Action';
+import Photo from '../../../../components/Backend/UI/List/Photo';
 
 import actions from '../../../../store/actions/backend/services';
 import { updateObject, convertDate, htmlEntities } from '../../../../shared/utility';
@@ -31,15 +32,17 @@ class Index extends Component {
                 created_at: convertDate(service.created_at),
                 title,
                 body: formattedBody.length > 90 ? formattedBody.substr(0, 90) + '...' : formattedBody,
-                icon: <><i className={'fas fa-fw mr-2 fa-' + service.icon} />{service.icon}</>,
+                icon: <><i className={`fas fa-fw mr-2 fa-${service.icon}`} />{service.icon}</>,
+                photos: <>{service.photos.map((photo, i) => <Photo photo={photo} see={see} title={`${form.photos}(${i + 1}): ${title}`} />)}</>,
                 action: <Action props={this.props} resource='services' item={service} />,
             });
         });
 
-        return <utility.index.lifecycle.render className='Publications' props={this.props} resource='services' data={data} fields={[
+        return <utility.index.lifecycle.render className='Services' props={this.props} resource='services' data={data} fields={[
             { name: form.title, key: 'title' },
             { name: form.body, key: 'body' },
             { name: form.icon, key: 'icon' },
+            { name: form.photos, key: 'photos' },
             { name: form.is_active, key: 'is_active' },
             { name: action, key: 'action', fixed: true }
         ]} />;

@@ -21,12 +21,14 @@ class Service extends Model
     }
 
     protected $fillable = [
-        'title', 'body', 'icon', 'slug',
+        'title', 'body', 'icon', 'photos', 'slug', 'is_active',
     ];
 
     protected $appends = [
         'link', 'stringified',
     ];
+
+    protected $directory = '/images/services/';
 
     public function getTitleAttribute($value)
     {
@@ -41,6 +43,13 @@ class Service extends Model
     public function getStringifiedAttribute()
     {
         return $this->title[env('MIX_DEFAULT_LANG', 'fr')];
+    }
+
+    public function getPhotosAttribute($value)
+    {
+        return $value ? array_map(function ($photo) {
+            return $this->directory . $photo;
+        }, json_decode($value)) : [];
     }
 
     public function getLinkAttribute()
