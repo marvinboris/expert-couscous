@@ -144,20 +144,22 @@ class ServiceController extends Controller
 
         $input = $request->except(['title', 'body', 'photos']);
 
-        $photos = [];
-        foreach ($request->photos as $photo) {
-            $fileName = UtilController::resize($photo, 'services');
-            $photos[] = htmlspecialchars($fileName);
-        }
+        if (count($request->photos) > 0) {
+            $photos = [];
+            foreach ($request->photos as $photo) {
+                $fileName = UtilController::resize($photo, 'services');
+                $photos[] = htmlspecialchars($fileName);
+            }
 
-        foreach ($service->photos as $service_photo) {
-            if ($service_photo && is_file(public_path($service_photo))) unlink(public_path($service_photo));
+            foreach ($service->photos as $service_photo) {
+                if ($service_photo && is_file(public_path($service_photo))) unlink(public_path($service_photo));
+            }
+            $input['photos'] = json_encode($photos);
         }
 
         $service->update($input + [
             'title' => json_encode($request->title),
             'body' => json_encode($request->body),
-            'photos' => json_encode($photos),
         ]);
 
         return response()->json([

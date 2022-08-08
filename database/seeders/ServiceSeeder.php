@@ -21,11 +21,10 @@ class ServiceSeeder extends Seeder
                     'en' => 'Vector control',
                 ]),
                 'body' => json_encode([
-                    'fr' => 'Elle est un ensemble de mesures intégrées permettant de réduire ou d\'éliminer une infestation de nuisible (rongeurs, insectes, reptiles, oiseaux et acariens) chers des particuliers ou des entreprises. Nous proposons une gamme de solutions intégrées pour une lutte efficace (sensibilisation/formation, limitation des accès et divers autres moyens de lutte).<br /><br /><strong>Prestations</strong>: Sensibilisation et formation, désinsectisation, dératisation, déserpentilisation',
-                    'en' => 'It is a set of integrated measures to reduce or eliminate an infestation of pests (rodents, insects, reptiles, birds and mites) dear to individuals or businesses. We offer a range of integrated solutions for effective control (awareness/training, access limitation and various other means of control).<br /><br /><strong>Services</strong>: Awareness and training, disinsectization, deratization, deserpentilization',
+                    'fr' => 'Elle est un ensemble de mesures intégrées permettant de réduire ou d\'éliminer une infestation de nuisible (rongeurs, insectes, reptiles, oiseaux et acariens) chez des particuliers ou des entreprises. Nous proposons une gamme de solutions intégrées pour une lutte efficace (sensibilisation/formation, limitation des accès et divers autres moyens de lutte).<br /><br /><strong>Prestations</strong>: Sensibilisation et formation, désinsectisation, dératisation, déserpentilisation',
+                    'en' => 'It is a set of integrated measures to reduce or eliminate a pest infestation (rodents, insects, reptiles, birds and mites) in individuals or businesses. We offer a range of integrated solutions for effective control (awareness/training, access limitation and various other means of control).<br /><br /><strong>Services</strong>: Awareness and training, disinsectization, deratization, deserpentilization',
                 ]),
                 'icon' => 'bacteria',
-                // 'photos' => json_encode(['', '', '']),
             ],
             [
                 'title' => json_encode([
