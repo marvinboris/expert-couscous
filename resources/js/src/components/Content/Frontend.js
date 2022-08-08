@@ -31,7 +31,7 @@ export default {
             "services": "Services",
             "publications": "Actualités",
             "contact": "Contact",
-            "tel": "677 550 011"
+            "tel": "696 966 555"
         }
     },
     "footer": {
@@ -59,7 +59,7 @@ export default {
                 },
                 "listen": "Nous sommes à l'écoute:",
                 "address": "Douala, Deido, Total Bonateki",
-                "phone": "+237 677 550 011 | +237 696 966 555",
+                "phone": "+237 696 966 555 | +237 677 550 011",
                 "hours": "8h - 17h, Lundi à Samedi"
             }
         },
@@ -162,7 +162,7 @@ export default {
                 "icon": "concierge-bell",
                 "head": "Comment vous aider",
                 "title": {
-                    "top": "Gamme de",
+                    "top": "Nos",
                     "bottom": "Services"
                 },
                 "view_all": "Voir toutes les services"
@@ -221,7 +221,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 677 550 011 | +237 696 966 555"
+                        "description": "+237 696 966 555 | +237 677 550 011"
                     },
                     {
                         "icon": "envelope",
@@ -282,7 +282,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 677 550 011 | +237 696 966 555"
+                        "description": "+237 696 966 555 | +237 677 550 011"
                     },
                     {
                         "icon": "envelope",
@@ -327,7 +327,7 @@ export default {
                     {
                         "icon": "headset",
                         "title": "Appelez-nous",
-                        "description": "+237 677 550 011 | +237 696 966 555"
+                        "description": "+237 696 966 555 | +237 677 550 011"
                     },
                     {
                         "icon": "envelope",
@@ -345,8 +345,8 @@ export default {
             "services": {
                 "head": "Comment pouvons-nous vous aider",
                 "title": {
-                    "left": "Toutes nos",
-                    "right": "gammes de services"
+                    "left": "Notre gamme",
+                    "right": "de services"
                 },
                 "centered": "true"
             }
