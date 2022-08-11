@@ -28,7 +28,7 @@ class FrontendController extends Controller
                 'publication_category' => $publication->publication_category->name,
             ]);
         }
-        $partners = Partner::orderBy('id', 'DESC')->whereIsActive(1)->get();
+        $partners = array_merge(Partner::where('photo', 'LIKE', '%min%')->whereIsActive(1)->get()->toArray(), Partner::where('photo', 'NOT LIKE', '%min%')->whereIsActive(1)->get()->toArray());
         $team = TeamMember::orderBy('id', 'DESC')->whereIsActive(1)->get();
         $all_services = Service::all();
 

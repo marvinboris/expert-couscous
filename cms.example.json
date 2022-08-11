@@ -641,7 +641,7 @@
                         "home": "Accueil",
                         "about": "A propos",
                         "services": "Services",
-                        "publications": "Actualités",
+                        "publications": "Articles",
                         "contact": "Contact",
                         "tel": "696 966 555"
                     }
@@ -656,7 +656,7 @@
                                 "home": "Accueil",
                                 "about": "A propos",
                                 "services": "Services",
-                                "publications": "Blog",
+                                "publications": "Articles",
                                 "contact": "Contact"
                             }
                         },
@@ -1607,7 +1607,7 @@
                         "home": "Home",
                         "about": "About us",
                         "services": "Services",
-                        "publications": "News",
+                        "publications": "Articles",
                         "contact": "Contact",
                         "tel": "696 966 555"
                     }
@@ -1623,7 +1623,7 @@
                                 "home": "Home",
                                 "about": "About us",
                                 "services": "Services",
-                                "publications": "News",
+                                "publications": "Articles",
                                 "contact": "Contact"
                             }
                         },

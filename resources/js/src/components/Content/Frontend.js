@@ -29,7 +29,7 @@ export default {
             "home": "Accueil",
             "about": "A propos",
             "services": "Services",
-            "publications": "Actualités",
+            "publications": "Articles",
             "contact": "Contact",
             "tel": "696 966 555"
         }
@@ -44,7 +44,7 @@ export default {
                     "home": "Accueil",
                     "about": "A propos",
                     "services": "Services",
-                    "publications": "Blog",
+                    "publications": "Articles",
                     "contact": "Contact"
                 }
             },
