@@ -100,6 +100,10 @@ class About extends Component {
                                     <p dangerouslySetInnerHTML={{ __html: cms.about.vision }} />
                                 </div>
                             </div>
+
+                            <p>
+                                <a href="/files/catalogue.pdf" className='btn btn-green'>{cms.about.catalog}</a>
+                            </p>
                         </div>
                     </div>
                 </div>

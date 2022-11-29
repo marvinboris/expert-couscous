@@ -194,6 +194,10 @@ class Home extends Component {
                             <div className='mission-title'>{cms.about.mission_title}</div>
 
                             <p dangerouslySetInnerHTML={{ __html: cms.about.mission_description }} />
+
+                            <p>
+                                <a href="/files/catalogue.pdf" className='btn btn-green'>{cms.about.catalog}</a>
+                            </p>
                         </div>
                     </div>
                 </div>

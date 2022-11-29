@@ -768,7 +768,8 @@
                             "description": "Hosamine SARL est une entreprise située à Douala, Deido, Total Bonateki au Cameroun, spécialisée en hygiène, assainissement et traitement phytosanitaire.",
                             "mission_title": "Notre mission",
                             "mission_description": "Notre équipe de professionnels est agréée par le Ministère de la Santé et le MINADER. L’innovation est au cœur de notre métier de gestion globale de la salubrité. Nos prestations de services portent sur l’hygiène publique, l’assainissement et le traitement phytosanitaire.",
-                            "read_more": "En savoir plus"
+                            "read_more": "En savoir plus",
+                            "catalog": "Notre catalogue"
                         },
                         "services": {
                             "icon": "concierge-bell",
@@ -856,7 +857,8 @@
                             "vision": "Notre <strong>devise</strong> est: Ethique - Déontologie - Professionnalisme - Respect de l’environnement",
                             "values": "Hosamine est une SARL de droit camerounais agréée par le MINSANTE et le MINADER, l’innovation est au cœur de notre métier de gestion globale de la salubrité. Nos prestations de services portent sur l’hygiène publique l’assainissement et le traitement phytosanitaire.<br /><br />Hosamine regroupe en son sein une équipe compétente, dynamique avec des connaissances approfondies dans le métier capable de répondre à vos demandes vous écouter et conseiller tout en respectant les délais convenus.<br /><br />Nous respectons les procédures, les normes édictées en la matière ainsi que les délais contractuels.<br /><br />Nos interventions sont préventives ou curatives.",
                             "mission": "Notre <strong>mission</strong> est d’agrandir le champ du possible par l’innovation dans le domaine de l’hygiène publique, de l’assainissement et du traitement phytosanitaire; faire la différence en offrant la possibilité aux professionnels autant qu’aux particuliers de disposer d’un environnement sain garant de bien être, de confort et de bonne qualité de vie.<br /><br />Evaluer les risques, appliquer les démarches sécurité, l’usage des Equipements de Protection Individuel (EPI) adaptés et des produits homologués, tout est mis en œuvre pour tendre vers un seul objectif : zéro accident lors de nos interventions.",
-                            "read_more": "En savoir plus"
+                            "read_more": "En savoir plus",
+                            "catalog": "Notre catalogue"
                         },
                         "services": {
                             "head": "Comment vous aider",
@@ -1737,7 +1739,8 @@
                             "description": "Hosamine SARL is a company located in Douala, Deido, Total Bonateki in Cameroon, specializing in hygiene, sanitation and phytosanitary treatment.",
                             "mission_title": "Our mission",
                             "mission_description": "Our team of professionals is approved by the Ministry of Health and MINADER. Innovation is at the heart of our global health management business. Our services relate to public hygiene, sanitation and phytosanitary treatment.",
-                            "read_more": "Read more"
+                            "read_more": "Read more",
+                            "catalog": "Our catalog"
                         },
                         "services": {
                             "icon": "concierge-bell",
@@ -1825,7 +1828,8 @@
                             "vision": "Our <strong>motto</strong> is: Ethics - Deontology - Professionalism - Respect for the environment",
                             "values": "Hosamine is a SARL under Cameroonian law approved by the MINSANTE and the MINADER, innovation is at the heart of our global health management business. Our services relate to public hygiene, sanitation and phytosanitary treatment.<br /><br />Hosamine brings together a competent, dynamic team with in-depth knowledge of the business capable of responding to your requests, listening to you and advising you while respecting the agreed deadlines.<br /><br />We respect the procedures , the standards enacted in the matter as well as the contractual deadlines.<br /><br />Our interventions are preventive or curative.",
                             "mission": "Our <strong>mission</strong> is to enlarge the field of the possible through innovation in the field of public hygiene, sanitation and phytosanitary treatment; make a difference by offering the possibility to professionals as well as individuals to have a healthy environment guaranteeing well-being, comfort and a good quality of life.<br /><br />Evaluate the risks, apply the procedures safety, the use of appropriate Personal Protective Equipment (PPE) and approved products, everything is done to work towards a single objective: zero accidents during our interventions.",
-                            "read_more": "Read more"
+                            "read_more": "Read more",
+                            "catalog": "Our catalog"
                         },
                         "services": {
                             "head": "How can we help you",
