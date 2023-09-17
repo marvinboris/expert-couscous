@@ -15,8 +15,6 @@ const initialState = {
 const authStart = (state, action) => updateObject(state, { error: null, loading: true, message: null });
 const authDataUpdateSuccess = (state, action) => updateObject(state, { error: null, loading: false, ...action });
 const authUserLoginSuccess = (state, action) => updateObject(state, { error: null, loading: false, ...action });
-const authCustomerLoginSuccess = (state, action) => updateObject(state, { error: null, loading: false, ...action });
-const authAutoRenewSuccess = (state, action) => updateObject(state, { error: null, loading: false, data: updateObject(state.data, { auto_renew: action.auto_renew }) });
 const authPhotoSuccess = (state, action) => updateObject(state, { error: null, loading: false, data: updateObject(state.data, { photo: action.photo }) });
 const authSignupSuccess = (state, action) => updateObject(state, { error: null, loading: false, ...action });
 const authAdminLoginSuccess = (state, action) => updateObject(state, { error: null, loading: false, ...action });
@@ -33,8 +31,6 @@ export default (state = initialState, action) => {
         case actionTypes.AUTH_START: return authStart(state, action);
         case actionTypes.AUTH_DATA_UPDATE_SUCCESS: return authDataUpdateSuccess(state, action);
         case actionTypes.AUTH_USER_LOGIN_SUCCESS: return authUserLoginSuccess(state, action);
-        case actionTypes.AUTH_CUSTOMER_LOGIN_SUCCESS: return authCustomerLoginSuccess(state, action);
-        case actionTypes.AUTH_AUTO_RENEW_SUCCESS: return authAutoRenewSuccess(state, action);
         case actionTypes.AUTH_PHOTO_SUCCESS: return authPhotoSuccess(state, action);
         case actionTypes.AUTH_SIGNUP_SUCCESS: return authSignupSuccess(state, action);
         case actionTypes.AUTH_ADMIN_LOGIN_SUCCESS: return authAdminLoginSuccess(state, action);
