@@ -287,9 +287,9 @@ __webpack_require__.r(__webpack_exports__);
       "home": "Accueil",
       "about": "A propos",
       "services": "Services",
-      "publications": "Actualités",
+      "publications": "Articles",
       "contact": "Contact",
-      "tel": "677 550 011"
+      "tel": "696 966 555"
     }
   },
   "footer": {
@@ -302,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
           "home": "Accueil",
           "about": "A propos",
           "services": "Services",
-          "publications": "Blog",
+          "publications": "Articles",
           "contact": "Contact"
         }
       },
@@ -317,7 +317,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         "listen": "Nous sommes à l'écoute:",
         "address": "Douala, Deido, Total Bonateki",
-        "phone": "+237 677 550 011 | +237 696 966 555",
+        "phone": "+237 696 966 555 | +237 677 550 011",
         "hours": "8h - 17h, Lundi à Samedi"
       }
     },
@@ -408,7 +408,7 @@ __webpack_require__.r(__webpack_exports__);
         "icon": "concierge-bell",
         "head": "Comment vous aider",
         "title": {
-          "top": "Gamme de",
+          "top": "Nos",
           "bottom": "Services"
         },
         "view_all": "Voir toutes les services"
@@ -465,7 +465,7 @@ __webpack_require__.r(__webpack_exports__);
         }, {
           "icon": "headset",
           "title": "Appelez-nous",
-          "description": "+237 677 550 011 | +237 696 966 555"
+          "description": "+237 696 966 555 | +237 677 550 011"
         }, {
           "icon": "envelope",
           "title": "Ecrivez-nous",
@@ -522,7 +522,7 @@ __webpack_require__.r(__webpack_exports__);
         }, {
           "icon": "headset",
           "title": "Appelez-nous",
-          "description": "+237 677 550 011 | +237 696 966 555"
+          "description": "+237 696 966 555 | +237 677 550 011"
         }, {
           "icon": "envelope",
           "title": "Ecrivez-nous",
@@ -563,7 +563,7 @@ __webpack_require__.r(__webpack_exports__);
         }, {
           "icon": "headset",
           "title": "Appelez-nous",
-          "description": "+237 677 550 011 | +237 696 966 555"
+          "description": "+237 696 966 555 | +237 677 550 011"
         }, {
           "icon": "envelope",
           "title": "Ecrivez-nous",
@@ -579,8 +579,8 @@ __webpack_require__.r(__webpack_exports__);
       "services": {
         "head": "Comment pouvons-nous vous aider",
         "title": {
-          "left": "Toutes nos",
-          "right": "gammes de services"
+          "left": "Notre gamme",
+          "right": "de services"
         },
         "centered": "true"
       }

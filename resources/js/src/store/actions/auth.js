@@ -10,7 +10,6 @@ export const authDataUpdateSuccess = data => ({ type: actionTypes.AUTH_DATA_UPDA
 
 const authUserLoginSuccess = (token, data) => ({ type: actionTypes.AUTH_USER_LOGIN_SUCCESS, token, data: { ...data }, role: 'user' });
 
-const authCustomerLoginSuccess = (token, data) => ({ type: actionTypes.AUTH_CUSTOMER_LOGIN_SUCCESS, token, data: { ...data }, role: 'customer' });
 const authPhotoSuccess = photo => ({ type: actionTypes.AUTH_PHOTO_SUCCESS, photo });
 const authSignupSuccess = email => ({ type: actionTypes.AUTH_SIGNUP_SUCCESS, signup: { status: true, email } });
 export const clearSignup = () => ({ type: actionTypes.CLEAR_SIGNUP, signup: { status: false, email: null } });
@@ -59,38 +58,6 @@ export const authUserLogin = data => async dispatch => {
         localStorage.setItem('lang', userData.language);
         localStorage.setItem('expirationDate', expirationDate);
         dispatch(authUserLoginSuccess(token, userData));
-        dispatch(checkAuthTimeout(expires_at - new Date().getTime()));
-    } catch (error) {
-        dispatch(authFail(error));
-    }
-};
-
-export const authCustomerLogin = data => async dispatch => {
-    dispatch(authStart());
-
-    try {
-        const form = new FormData(data);
-
-        const res = await fetch(`${prefix}customer/login`, {
-            method: 'POST',
-            body: form
-        });
-
-        const resData = await res.json();
-
-        let { access_token, token_type, expires_at, userData } = resData;
-        const token = token_type + ' ' + access_token;
-        expires_at = new Date(expires_at).getTime();
-
-        if (res.status === 422) throw new Error(Object.values(resData.errors).join('\n'));
-        else if (res.status === 403 || res.status === 401) return dispatch(authMessage(resData.message));
-        else if (res.status !== 200 && res.status !== 201) throw new Error(resData.error.message);
-
-        const expirationDate = new Date(expires_at);
-        localStorage.setItem('token', token);
-        localStorage.setItem('lang', userData.language);
-        localStorage.setItem('expirationDate', expirationDate);
-        dispatch(authCustomerLoginSuccess(token, userData));
         dispatch(checkAuthTimeout(expires_at - new Date().getTime()));
     } catch (error) {
         dispatch(authFail(error));
@@ -164,38 +131,6 @@ export const resetPassword = (id, code, data) => async dispatch => {
         else if (res.status !== 200 && res.status !== 201) throw new Error(resData);
 
         dispatch(authMessage(resData.message));
-    } catch (error) {
-        dispatch(authFail(error));
-    }
-};
-
-export const authCashierLogin = data => async dispatch => {
-    dispatch(authStart());
-
-    try {
-        const form = new FormData(data);
-
-        const res = await fetch(`${prefix}cashier/login`, {
-            method: 'POST',
-            body: form
-        });
-
-        const resData = await res.json();
-
-        let { access_token, token_type, expires_at, userData } = resData;
-        const token = token_type + ' ' + access_token;
-        expires_at = new Date(expires_at).getTime();
-
-        if (res.status === 422) throw new Error(Object.values(resData.errors).join('\n'));
-        else if (res.status === 403 || res.status === 401) return dispatch(authMessage(resData.message));
-        else if (res.status !== 200 && res.status !== 201) throw new Error(resData.error.message);
-
-        const expirationDate = new Date(expires_at);
-        localStorage.setItem('token', token);
-        localStorage.setItem('lang', userData.language);
-        localStorage.setItem('expirationDate', expirationDate);
-        dispatch(authCashierLoginSuccess(token, userData));
-        dispatch(checkAuthTimeout(expires_at - new Date().getTime()));
     } catch (error) {
         dispatch(authFail(error));
     }

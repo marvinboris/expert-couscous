@@ -144,7 +144,7 @@ class ServiceController extends Controller
 
         $input = $request->except(['title', 'body', 'photos']);
 
-        if (count($request->photos) > 0) {
+        if ($request->photos && count($request->photos) > 0) {
             $photos = [];
             foreach ($request->photos as $photo) {
                 $fileName = UtilController::resize($photo, 'services');

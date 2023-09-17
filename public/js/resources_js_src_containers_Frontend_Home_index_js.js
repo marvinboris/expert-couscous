@@ -1671,6 +1671,12 @@ var Home = /*#__PURE__*/function (_Component) {
                   dangerouslySetInnerHTML: {
                     __html: cms.about.mission_description
                   }
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)("p", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)("a", {
+                    href: "/files/catalogue.pdf",
+                    className: "btn btn-green",
+                    children: cms.about.catalog
+                  })
                 })]
               })]
             })
